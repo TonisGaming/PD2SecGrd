@@ -1,5 +1,0 @@
-<materials version="3">
-	<material name="mtr_chas_clock_wall" render_template="generic:DIFFUSE_TEXTURE" version="2">
-		<diffuse_texture file="units/pd2_dlc_chas/props/chas_prop_clock_wall/chas_prop_clock_wall_df" />
-	</material>
-</materials>
