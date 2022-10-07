@@ -1,0 +1,6 @@
+<unit type="hcm" slot="1" >
+    <object file="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_trim_4x1m_a" />
+    <extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+    </extensions>
+</unit>

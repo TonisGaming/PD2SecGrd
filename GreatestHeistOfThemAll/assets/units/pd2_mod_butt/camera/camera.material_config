@@ -1,0 +1,13 @@
+<materials version="3">
+    <material version="2" decal_material="metal" render_template="generic:CONTOUR:DIFFUSE_TEXTURE:NORMALMAP" unique="true" name="security_camera">
+        <diffuse_texture file="units/world/props/security_camera/security_camera_white_df"/>
+        <bump_normal_texture file="units/payday2/equipment/gen_equipment_security_camera/gen_equipment_security_camera_nm"/>
+        <variable value="0 0 0" type="vector3" name="contour_color"/>
+        <variable value="0" type="scalar" name="contour_opacity"/>
+    </material>
+    <material render_template="effect:BLEND_ADD:DIFFUSE0_TEXTURE:VIEW_ANGLE_FALLOFF_OP" src="GLOBAL" name="glow" version="2">
+        <variable value="searchlight" type="scalar" name="intensity"/>
+        <diffuse_texture file="units/payday2/equipment/gen_equipment_security_camera/gen_equipment_security_camera_light_df"/>
+        <variable value="1" type="scalar" name="falloff_exp"/>
+    </material>
+</materials>

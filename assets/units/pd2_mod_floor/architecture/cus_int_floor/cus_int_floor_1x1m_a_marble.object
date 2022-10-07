@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<dynamic_object>
+	<metadata material_config_group="pd2_mod_floor_cus_int_floor_group"/>
+	<diesel materials="units/pd2_mod_floor/architecture/cus_int_floor/cus_int_floor" orientation_object="rp_hcm_int_floor_1x1m_a_marble" />
+    <bodies>
+        <body name="static_body" template="static" enabled="true" >
+            <object name="rp_hcm_int_floor_1x1m_a_marble"/>
+            <object name="c_box_00" collision_type="box" padding="-2.5"/>
+        </body>
+    </bodies>
+	
+	<decal_surfaces default_material="marble" static="true">
+		<decal_mesh name="g_hcm_int_floor_1x1m_a_marble" material="marble" enabled="true"/>
+	</decal_surfaces> 
+	
+    <graphics>
+        <object enabled="true" name="g_hcm_int_floor_1x1m_a_marble" shadow_caster="false" />
+    </graphics>
+</dynamic_object> 

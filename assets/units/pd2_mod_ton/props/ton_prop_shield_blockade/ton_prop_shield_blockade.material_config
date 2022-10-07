@@ -1,0 +1,6 @@
+<materials version="3">
+    <material name="mtr_shield_small" render_template="generic:ALPHA_MASKED:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture		file="units/pd2_mod_ton/props/ton_prop_shield_blockade/ene_acc_shield_lights_df" />
+        <bump_normal_texture	file="units/payday2/characters/shared_textures/ene_acc_shield_lights_nm" />
+    </material>
+</materials>

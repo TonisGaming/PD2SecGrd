@@ -1,0 +1,50 @@
+<table directory="assets">
+	<add path="units/pd2_dlc_chca/props/chca_prop_titan_shutters/chca_prop_titan_shutters" type="unit">
+		<texture path="units/pd2_dlc_arena/architecture/are_lobby/are_corridor_barrier_df"/>
+		<texture path="units/pd2_dlc_arena/architecture/are_lobby/are_corridor_barrier_nm"/>
+		<texture path="units/pd2_dlc_chca/props/chca_prop_titan_shutters/chca_prop_security_safe_titan_df"/>
+		<texture path="units/pd2_dlc_chca/props/chca_prop_titan_shutters/chca_prop_security_safe_nm"/>
+		<texture path="units/pd2_dlc_chca/props/chca_prop_titan_shutters/chca_railing_metallics_df"/>
+		<texture path="units/pd2_dlc_chca/props/chca_prop_titan_shutters/chca_railing_metallics_nm"/>
+		<texture path="units/pd2_dlc_chca/props/chca_prop_titan_shutters/chca_railing_metallics_gsma"/>
+		<bnk path="soundbanks/regular_sfx"/>
+		<material_config path="units/pd2_dlc_chca/props/chca_prop_titan_shutters/chca_prop_titan_shutters"/>
+		<model path="units/pd2_dlc_chca/props/chca_prop_titan_shutters/chca_prop_titan_shutters"/>
+		<object path="units/pd2_dlc_chca/props/chca_prop_titan_shutters/chca_prop_titan_shutters"/>
+		<sequence_manager path="units/pd2_dlc_chca/props/chca_prop_titan_shutters/chca_prop_titan_shutters"/>
+		<unit path="units/pd2_dlc_chca/props/chca_prop_titan_shutters/chca_prop_titan_shutters"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" type="unit">
+		<material_config path="units/payday2/architecture/mkp/mkp" unload="true"/>
+		<object path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
+		<unit path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
+	</add>
+	<add path="units/pd2_dlc_brb/props/brb_prop_titan_shutters/brb_prop_titan_shutters_03" type="unit">
+		<texture path="units/pd2_dlc_arena/architecture/are_lobby/are_corridor_barrier_df"/>
+		<texture path="units/pd2_dlc_arena/architecture/are_lobby/are_corridor_barrier_nm"/>
+		<texture path="units/payday2/props/gen_prop_security_safe_05x05/gen_prop_security_safe_titan_df"/>
+		<texture path="units/payday2/props/gen_prop_security_safe_05x05/gen_prop_security_safe_nm"/>
+		<texture path="units/pd2_dlc_brb/architecture/brb_int/brb_int_railing/brb_railing_metallics_df"/>
+		<texture path="units/pd2_dlc_brb/architecture/brb_int/brb_int_railing/brb_railing_metallics_nm"/>
+		<texture path="units/pd2_dlc_brb/architecture/brb_int/brb_int_railing/brb_railing_metallics_gsma"/>
+		<texture path="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight"/>
+		<bnk path="soundbanks/regular_sfx"/>
+		<material_config path="units/pd2_dlc_brb/props/brb_prop_titan_shutters/brb_prop_titan_shutters"/>
+		<model path="units/pd2_dlc_brb/props/brb_prop_titan_shutters/brb_prop_titan_shutters_03"/>
+		<object path="units/pd2_dlc_brb/props/brb_prop_titan_shutters/brb_prop_titan_shutters_03"/>
+		<sequence_manager path="units/pd2_dlc_brb/props/brb_prop_titan_shutters/brb_prop_titan_shutters_03"/>
+		<unit path="units/pd2_dlc_brb/props/brb_prop_titan_shutters/brb_prop_titan_shutters_03"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_brb/props/brb_prop_titan_shutters/brb_prop_titan_shutters" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<material_config path="units/pd2_dlc_brb/props/brb_prop_titan_shutters/brb_prop_titan_shutters"/>
+		<object path="units/pd2_dlc_brb/props/brb_prop_titan_shutters/brb_prop_titan_shutters"/>
+		<sequence_manager path="units/pd2_dlc_brb/props/brb_prop_titan_shutters/brb_prop_titan_shutters"/>
+		<unit path="units/pd2_dlc_brb/props/brb_prop_titan_shutters/brb_prop_titan_shutters"/>
+	</add>
+	<add from_db="true" path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x1x3" type="unit">
+		<unit path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x1x3"/>
+		<object path="units/dev_tools/level_tools/dev_door_blocker/dev_door_blocker_1x1x3"/>
+		<material_config path="core/material_configs/hub_elements"/>
+	</add>
+</table>

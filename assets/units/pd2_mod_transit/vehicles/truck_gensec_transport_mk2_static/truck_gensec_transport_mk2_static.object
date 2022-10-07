@@ -1,0 +1,78 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_transit/vehicles/truck_gensec_transport_mk2_static/truck_gensec_transport_mk2_static" orientation_object="rp_gensec_truck" />
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="c_back_door_left" collision_type="box" padding="-2.5" />
+			<object name="c_back_door_right" collision_type="box" padding="-2.5" />
+			<object name="c_box_door_left" collision_type="box" padding="-2.5" />
+			<object name="c_convex_door_left" collision_type="mesh_mopp"/>
+			<object name="c_middle_door_left" collision_type="box" padding="-2.5" />
+			<object name="c_middle_door_right" collision_type="box" padding="-2.5" />
+			<object name="c_tire_left" collision_type="mesh_mopp" />
+			<object name="c_tire_right" collision_type="mesh_mopp" />
+			<object name="c_box_door_right" collision_type="box" padding="-2.5" />
+			<object name="c_box_truck_02" collision_type="box" padding="-2.5" />
+			<object name="c_box_truck_03" collision_type="box" padding="-2.5" />
+			<object name="c_box_truck_04" collision_type="box" padding="-2.5" />
+			<object name="c_box_truck_05" collision_type="box" padding="-2.5" />
+			<object name="c_convex_door_right" collision_type="mesh_mopp" />
+			<object name="c_convex_truck_01" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_truck_02" collision_type="convex" padding="-2.5" />
+			<object name="c_truck" collision_type="mesh_mopp" />
+			<object name="dm_glass_front" collision_type="box" padding="-2.5"/>
+		</body>
+		<body name="bag_blocker" enabled="true" template="fence" collision_class="bag_blocker">
+			<object name="c_box_bag_blocker" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<decal_surfaces>
+		<decal_mesh name="dm_back_door_left_sheet_metal" enabled="false" material="sheet_metal" />
+		<decal_mesh name="dm_glass_back_door_left" enabled="true" material="glass_unbreakable" />
+		<decal_mesh name="dm_back_door_right_sheet_metal" enabled="true" material="sheet_metal" />
+		<decal_mesh name="dm_glass_back_door_right" enabled="true" material="glass_unbreakable" />
+		<decal_mesh name="dm_front_door_left_sheet_metal" enabled="true" material="sheet_metal" />
+		<decal_mesh name="dm_glass_front_door_left" enabled="true" material="glass_unbreakable" />
+		<decal_mesh name="dm_glass_middle_door_left" enabled="true" material="glass_unbreakable" />
+		<decal_mesh name="dm_middle_door_left_sheet_metal" enabled="true" material="sheet_metal" />
+		<decal_mesh name="dm_glass_middle_door_right" enabled="true" material="glass_unbreakable" />
+		<decal_mesh name="dm_middle_door_right_sheet_metal" enabled="true" material="sheet_metal" />
+		<decal_mesh enabled="true" name="dm_metal_left" material="metal" />
+		<decal_mesh enabled="true" name="dm_rubber_left" material="rubber" />
+		<decal_mesh enabled="true" name="dm_metal_right" material="metal" />
+		<decal_mesh enabled="true" name="dm_rubber_right" material="rubber" />
+		<decal_mesh name="dm_front_door_right_sheet_metal" enabled="true" material="sheet_metal" />
+		<decal_mesh name="dm_glass_front" enabled="true" material="glass_unbreakable" />
+		<decal_mesh name="dm_glass_front_door_right" enabled="true" material="glass_unbreakable" />
+		<decal_mesh enabled="true" name="dm_metal" material="metal" />
+		<decal_mesh enabled="true" name="dm_rubber" material="rubber" />
+		<decal_mesh name="dm_sheet_metal" enabled="true" material="sheet_metal" />
+	</decal_surfaces>
+	<graphics>
+		<graphic_group name="grp_truck" enabled="true">
+			<object name="g_back_door_left"	enabled="true" shadow_caster="false"/>
+			<object name="g_glass_back_door_left"	enabled="true" shadow_caster="false"/>
+			<object name="s_back_door_left"	enabled="true" shadow_caster="true"/>
+			<object name="g_back_door_right" enabled="true" shadow_caster="false"/>
+			<object name="g_decals_right_back_door"	enabled="true" shadow_caster="false"/>
+			<object name="g_glass_back_door_right"	enabled="true" shadow_caster="false"/>
+			<object name="s_back_door_right" enabled="true" shadow_caster="true"/>
+			<object name="g_front_door"	enabled="true" shadow_caster="true"/>
+			<object name="g_glass_front_door_left" enabled="true" shadow_caster="false"/>
+			<object name="g_glass_middle_door_left"	enabled="true" shadow_caster="false"/>
+			<object name="g_middle_door_left"	enabled="true" shadow_caster="false"/>
+			<object name="g_glass_middle_door_right"	enabled="true" shadow_caster="false"/>
+			<object name="g_middle_door_right"	enabled="true" shadow_caster="false"/>
+			<object name="g_tire_left"	enabled="true" shadow_caster="false"/>
+			<object name="s_tire_left"	enabled="true" shadow_caster="true"/>
+			<object name="g_tire_right"	enabled="true" shadow_caster="false"/>
+			<object name="s_tire_right"	enabled="true" shadow_caster="true"/>
+			<object name="g_truck"	enabled="true" shadow_caster="false"/>
+			<object name="g_decals_static"	enabled="true" shadow_caster="false"/>
+			<object name="g_glass_front" enabled="true" shadow_caster="false"/>
+			<object name="g_glass_front_door_right"	enabled="true" shadow_caster="false"/>
+			<object name="s_shadow"	enabled="true" shadow_caster="true"/>
+		</graphic_group>
+
+	</graphics>
+
+</dynamic_object>

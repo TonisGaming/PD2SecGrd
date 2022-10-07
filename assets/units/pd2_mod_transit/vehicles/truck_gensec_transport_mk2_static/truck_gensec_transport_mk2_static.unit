@@ -1,0 +1,8 @@
+<unit type="transit" slot="1">
+	<object file="units/pd2_mod_transit/vehicles/truck_gensec_transport_mk2_static/truck_gensec_transport_mk2_static" />
+	<dependencies>
+	</dependencies>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData"/>
+	</extensions>
+</unit>

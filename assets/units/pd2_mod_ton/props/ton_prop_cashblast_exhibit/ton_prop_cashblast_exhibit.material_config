@@ -1,0 +1,22 @@
+<materials version="3">
+	<material name="mtr_money_bits" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+		<diffuse_texture file="units/pd2_dlc_pda8/weapons/wpn_fps_fla_money_pts/money_bits_df" mip="1" />
+		<bump_normal_texture file="units/pd2_dlc_pda8/weapons/wpn_fps_fla_money_pts/money_bits_nm" mip="1" />
+	</material>
+	<material name="mtr_body_third" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+		<diffuse_texture file="units/pd2_dlc_pda8/weapons/wpn_fps_fla_money_pts/wpn_fps_fla_system_body_lower_df" mip="1" />
+		<bump_normal_texture file="units/pd2_dlc_pda8/weapons/wpn_fps_fla_money_pts/wpn_fps_fla_system_body_lower_nm" mip="1" />
+	</material>
+	<material name="mtr_grip_third" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+		<diffuse_texture file="units/pd2_dlc_pda8/weapons/wpn_fps_fla_money_pts/wpn_fps_fla_system_g_standard_df" mip="1" />
+		<bump_normal_texture file="units/pd2_dlc_pda8/weapons/wpn_fps_fla_money_pts/wpn_fps_fla_system_g_standard_nm" mip="1" />
+	</material>
+	<material name="mtr_system_third" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+		<diffuse_texture file="units/pd2_dlc_pda8/weapons/wpn_fps_fla_money_pts/wpn_fps_fla_system_system_df" mip="1" />
+		<bump_normal_texture file="units/pd2_dlc_pda8/weapons/wpn_fps_fla_money_pts/wpn_fps_fla_system_system_nm" mip="1" />
+	</material>
+	<material name="mtr_upper_third" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+		<diffuse_texture file="units/pd2_dlc_pda8/weapons/wpn_fps_fla_money_pts/wpn_fps_fla_system_body_upper_df" mip="1" />
+		<bump_normal_texture file="units/pd2_dlc_pda8/weapons/wpn_fps_fla_money_pts/wpn_fps_fla_system_body_upper_nm" mip="1" />
+	</material>
+</materials>

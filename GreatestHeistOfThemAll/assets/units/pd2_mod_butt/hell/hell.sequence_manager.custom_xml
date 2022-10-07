@@ -1,0 +1,16 @@
+<table>
+	<unit>
+		<sequence editable_state="true" name="'show'" triggable="true">
+			<object name="'g_g'" enabled="true" />
+			<object name="'g_floor'" enabled="true" />
+			<object name="'g_contblock'" enabled="true" />
+			<object name="'g_dog'" enabled="true" />
+		</sequence>
+		<sequence editable_state="true" name="'hide'" triggable="true">
+			<object name="'g_g'" enabled="false" />
+			<object name="'g_floor'" enabled="false" />
+			<object name="'g_contblock'" enabled="false" />
+			<object name="'g_dog'" enabled="false" />
+		</sequence>
+	</unit>
+</table>

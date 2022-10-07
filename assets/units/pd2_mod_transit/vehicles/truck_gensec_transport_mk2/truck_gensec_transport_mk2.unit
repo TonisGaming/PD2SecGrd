@@ -1,0 +1,11 @@
+<unit type="transit" slot="1">
+	<object file="units/pd2_mod_transit/vehicles/truck_gensec_transport_mk2/truck_gensec_transport_mk2" />
+	<network sync="spawn"/>
+	<dependencies>
+		<depends_on effect="effects/payday2/economy/particles/equipment/eco_drill_sparks" />
+	</dependencies>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData"/>
+		<extension name="damage" class="UnitDamage"/>
+	</extensions>
+</unit>

@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<dynamic_object>
+	<metadata material_config_group="lux_wall_group"/>
+	<diesel materials="units/pd2_mod_lux/architecture/pd2_mod_lux/lux" orientation_object="rp_lux_int_wall3d_4m_closetdoor_a" />
+	<sequence_manager file="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall3d_4m_closetdoor_a" />
+	<animations>
+		<animation_group name="anim" enabled="false">
+			<object name="a_door" />
+		</animation_group>
+	</animations>
+    <bodies>
+        <body name="static_body" template="static" enabled="true" >
+            <object name="rp_lux_int_wall3d_4m_closetdoor_a"/>
+            <object name="c_1" collision_type="box" padding="-2.5"/>
+            <object name="c_2" collision_type="box" padding="-2.5"/>
+            <object name="c_3" collision_type="box" padding="-2.5"/>
+            <object name="c_4" collision_type="box" padding="-2.5"/>
+            <object name="c_6" collision_type="box" padding="-2.5"/>
+        </body>
+        <body name="body_door" template="animated" enabled="true" >
+            <object name="a_door"/>
+            <object collision_type="mesh_mopp" enabled="true" name="c_door"/>
+        </body>
+    </bodies>
+	
+	<decal_surfaces default_material="metal" static="true">
+		<decal_mesh name="g_lux_int_wall3d_4m_closetdoor_a" material="wood" enabled="true"/>
+		<decal_mesh name="g_door" 							material="wood" enabled="true"/>
+	</decal_surfaces> 
+	
+    <graphics>
+        <object enabled="true" name="g_lux_int_wall3d_4m_closetdoor_a" 	instance_struct="world_tm" shadow_caster="false" />
+        <object enabled="true" name="g_door" 							instance_struct="world_tm" shadow_caster="false" />
+    </graphics>
+</dynamic_object> 

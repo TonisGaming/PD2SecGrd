@@ -1,0 +1,8 @@
+<unit type="lxa" slot="1" >
+    <object file="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_cellceiling1_2x2m_a" />
+    <dependencies>
+    </dependencies>
+    <extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+    </extensions>
+</unit>

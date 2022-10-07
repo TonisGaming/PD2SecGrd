@@ -1,0 +1,28 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_transit/vehicles/truck_gensec_transport_mk2/truck_gensec_transport_mk2" orientation_object="rp_spawn_gensec_truck_door" />
+	<bodies>
+		<body name="body_back_door_right" enabled="true" template="debris" friction="1.5" collides_with_mover="true">
+			<object name="c_back_door_right" collision_type="box" mass="10" padding="-2.5" />
+			<object name="c_handle_in_right" collision_type="box" padding="-2.5" />
+			<object name="c_handle_out_right" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_back_door_left" enabled="true" template="debris" friction="1.5" collides_with_mover="true">
+			<object name="c_back_door_left" collision_type="box" mass="5" padding="-2.5" />
+			<object name="c_handle_in_left" collision_type="box" padding="-2.5" />
+			<object name="c_handle_out_left" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<decal_surfaces default_material="metal_chassis">
+		<decal_mesh name="dm_back_door_right_sheet_metal" 		enabled="true" material="metal_chassis" />
+		<decal_mesh name="dm_back_door_left_sheet_metal" 		enabled="true" material="metal_chassis" />
+	</decal_surfaces>
+	<graphics>
+		<object name="g_door_right" 		enabled="true" shadow_caster="false" />
+		<object name="g_door_left" 		enabled="true" shadow_caster="false" />
+		<object name="g_decals_right_back_door" 				enabled="false" shadow_caster="false" />
+		<object name="s_back_door_right" 		enabled="true" shadow_caster="true" />
+		<object name="s_back_door_left" 		enabled="true" shadow_caster="true" />
+		<object name="g_glass_door_left" 	enabled="true" shadow_caster="true" />
+		<object name="g_glass_door_right" 	enabled="true" shadow_caster="true" />
+	</graphics>
+</dynamic_object>

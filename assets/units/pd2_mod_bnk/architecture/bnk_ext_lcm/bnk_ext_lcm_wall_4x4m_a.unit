@@ -1,0 +1,6 @@
+<unit type="lcm" slot="1" >
+    <object file="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall_4x4m_a" />
+    <extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+    </extensions>
+</unit>

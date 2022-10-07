@@ -1,0 +1,12 @@
+<unit type="transit" slot="1">
+	<object file="units/pd2_mod_transit/vehicles/truck_gensec_transport_mk2/breaching_charge/breaching_charge" />
+	<network sync="spawn"/>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData"/>
+		 <extension name="damage" class="UnitDamage"/>
+		<extension name="interaction" class="UseInteractionExt">
+			<var name="tweak_data" value="transit_place_breaching_charge" />
+			<var name="_interact_object" value="int_breaching_charge"/>
+		</extension>
+	</extensions>
+</unit>

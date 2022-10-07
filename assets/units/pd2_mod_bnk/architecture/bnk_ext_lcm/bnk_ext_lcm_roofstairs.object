@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<dynamic_object>
+	<metadata material_config_group="bank_mod_wall_ext_lcm_group"/>
+	<diesel materials="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm" orientation_object="rp_lcm_b_ext_branchbank_roofstairs_a" />
+    <bodies>
+        <body name="static_body" template="static" enabled="true" >
+            <object name="rp_lcm_b_ext_branchbank_roofstairs_a"/>
+			<object name="c_box_01" collision_type="box" padding="-2.5"/>
+			<object name="c_box_02" collision_type="box" padding="-2.5"/>
+			<object name="c_box_03" collision_type="box" padding="-2.5"/>
+			<object name="c_box_04" collision_type="box" padding="-2.5"/>
+			<object name="c_box_05" collision_type="box" padding="-2.5"/>
+			<object name="c_box_06" collision_type="box" padding="-2.5"/>
+			<object name="c_box_07" collision_type="box" padding="-2.5"/>
+			<object name="c_box_08" collision_type="box" padding="-2.5"/>
+			<object name="c_box_09" collision_type="box" padding="-2.5"/>
+			<object name="c_box_10" collision_type="box" padding="-2.5"/>
+			<object name="c_box_11" collision_type="box" padding="-2.5"/>
+			<object name="c_box_12" collision_type="box" padding="-2.5"/>
+			<object name="c_box_13" collision_type="box" padding="-2.5"/>
+			<object name="c_convex_01" collision_type="convex" padding="-2.5"/>
+			<object name="c_convex_02" collision_type="convex" padding="-2.5"/>
+        </body>
+    </bodies>
+	
+	<decal_surfaces default_material="stone" static="true">
+		<decal_mesh name="g_lcm_b_ext_branchbank_roofstairs_a" material="stone" enabled="true"/>
+	</decal_surfaces> 
+	
+    <graphics>		
+        <object enabled="true" name="g_lcm_b_ext_branchbank_roofstairs_a" />
+		<object name="s_s" enabled="true" shadow_caster="true"/>
+    </graphics>
+	
+</dynamic_object>

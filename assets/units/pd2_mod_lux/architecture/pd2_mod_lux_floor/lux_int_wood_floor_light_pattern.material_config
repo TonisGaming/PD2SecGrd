@@ -1,0 +1,8 @@
+<materials version="3" group="lux_floor_wood_group">
+    <material name="lambert1" render_template="generic" version="2"/>
+    <material name="mat_gam_flr_03" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc_vit/architecture/tilling_textures/vit_int_wooden_floor/vit_int_wooden_floor_pattern_df" mip="1"/>
+        <bump_normal_texture file="units/pd2_dlc_vit/architecture/tilling_textures/vit_int_wooden_floor/vit_int_wooden_floor_pattern_nm" mip="1"/>
+        <material_texture file="units/pd2_dlc_vit/architecture/tilling_textures/vit_int_wooden_floor/vit_int_wooden_floor_pattern_gsma" mip="1"/>
+    </material>
+</materials>

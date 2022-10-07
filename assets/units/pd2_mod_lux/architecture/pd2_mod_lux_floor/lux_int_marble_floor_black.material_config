@@ -1,0 +1,8 @@
+<materials version="3" group="lux_floor_marble_group">
+    <material name="lambert1" render_template="generic" version="2"/>
+    <material name="mat_gam_flr_03" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT" version="2">
+        <diffuse_texture file="units/pd2_dlc2/architecture/gov_c_int/gov_c_int_marble_e_df"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+        <bump_normal_texture file="units/pd2_dlc2/architecture/gov_c_int/gov_c_int_marble_e_nm"/>
+    </material>
+</materials>

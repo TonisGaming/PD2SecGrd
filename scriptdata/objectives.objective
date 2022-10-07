@@ -1,0 +1,12 @@
+<table>
+	<objective description="tonsecgrd1_obj_wait_desc" id="tonsecgrd1_obj_wait" text="tonsecgrd1_obj_wait"/>
+	<objective description="tonsecgrd1_obj_save_desc" id="tonsecgrd1_obj_save" text="tonsecgrd1_obj_save"/>
+	<objective description="tonsecgrd1_obj1_desc" id="tonsecgrd1_obj1" text="tonsecgrd1_obj1"/>
+	<objective description="tonsecgrd1_obj2_wait_desc" id="tonsecgrd1_obj2_wait" text="tonsecgrd1_obj2_wait"/>
+	<objective description="tonsecgrd1_obj2_corridor_desc" id="tonsecgrd1_obj2_corridor" text="tonsecgrd1_obj2_corridor"/>
+	<objective description="tonsecgrd1_obj2_appartment_desc" id="tonsecgrd1_obj2_appartment" text="tonsecgrd1_obj2_appartment"/>
+	<objective description="tonsecgrd1_obj2_bookcase_desc" id="tonsecgrd1_obj2_bookcase" text="tonsecgrd1_obj2_bookcase"/>
+	<objective description="tonsecgrd1_obj3_desc" id="tonsecgrd1_obj3" text="tonsecgrd1_obj3"/>
+	<objective description="tonsecgrd1_obj4_desc" id="tonsecgrd1_obj4" text="tonsecgrd1_obj4"/>
+	<objective description="tonsecgrd1_obj5_desc" id="tonsecgrd1_obj5" text="tonsecgrd1_obj5"/>
+</table>

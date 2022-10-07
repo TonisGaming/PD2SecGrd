@@ -1,0 +1,19 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_transit/vehicles/truck_gensec_transport_mk2/truck_gensec_transport_mk2" orientation_object="rp_breaching_charge" />
+	<sequence_manager file="units/pd2_mod_transit/vehicles/truck_gensec_transport_mk2/breaching_charge/breaching_charge" />
+	<bodies>
+		<body name="editor_body" enabled="true" template="editor">
+			<object name="rp_breaching_charge"/>
+			<object name="g_breaching_charge" collision_type="mesh_mopp"/>
+		</body>
+	</bodies>
+	<graphics>
+		<object name="g_breaching_charge" enabled="false" shadow_caster="false"/>
+		<graphic_group name="grp_outline" enabled="true" >
+        	<lod_object name="lod_outline">
+            	<object name="contour_breaching_charge" enabled="true" shadow_caster="false" max_distance="350" />
+            	<object name="g_lod_1" enabled="false" />
+        	</lod_object>
+    	</graphic_group>
+	</graphics>
+</dynamic_object>

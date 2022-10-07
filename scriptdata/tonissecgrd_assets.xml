@@ -1,0 +1,806 @@
+<table directory="assets">
+	<add>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall3_1m_a"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall3_1m_a"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall3_1m_a" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall3_1m_a"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall3_2m_a"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall3_2m_a"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall3_2m_a" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall3_2m_a"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall3_2m_door_a"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall3_2m_door_a"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall3_2m_door_a" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall3_2m_door_a"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall3_2m_window_a"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall3_2m_window_a"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall3_2m_window_a" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall3_2m_window_a"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall3_4m_a"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall3_4m_a"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall3_4m_a" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall3_4m_a"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall3_025m_cap_a"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall3_025m_cap_a"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall3_025m_cap_a" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall3_025m_cap_a"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall3_050m_cap_a"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall3_050m_cap_a"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall3_050m_cap_a" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall3_050m_cap_a"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall3_fireplace_2m_a"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall3_fireplace_2m_a"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall3_fireplace_2m_a" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall3_fireplace_2m_a"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall3d_2m_door_a"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall3d_2m_door_a"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall3d_2m_door_a" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall3d_2m_door_a"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall3d_4m_a"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall3d_4m_a"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall3d_4m_a" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall3d_4m_a"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall3d_4m_closetdoor_a"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall3d_4m_closetdoor_a"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall3d_4m_closetdoor_a" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall3d_4m_closetdoor_a"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_ext"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_ext_fex"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_ext_scarface"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_red"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_dark_red"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_cyan"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_emerald"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_gray"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_purple"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_purple_pattern_floral"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_black"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_light_blue"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_lime_green"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_yellow"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_orange"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_black_pattern_floral"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_dark_red_pattern_floral"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_cyan_pattern_floral"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_emerald_pattern_floral"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_light_blue_pattern_floral"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_gray_pattern_floral"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_red_pattern_floral"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_orange_pattern_floral"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_yellow_pattern_floral"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_marble_black"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_marble_beige_brb"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_beige"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_beige_pattern_floral"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_marble_white"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_limestone"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_greenmarble"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_beigemarble"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall_door_cap_a"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall_door_cap_a"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall_door_cap_a" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall_door_cap_a"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1_025m_cap_a"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1_025m_cap_a"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1_025m_cap_a" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1_025m_cap_a"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1_050m_cap_a"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1_050m_cap_a"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1_050m_cap_a" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1_050m_cap_a"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1d_1m_a"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1d_1m_a"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1d_1m_a" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1d_1m_a"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1d_1m_a"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1d_1m_a"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1d_1m_a" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1d_1m_a"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1d_1x1m_corner_a"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1d_1x1m_corner_a"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1d_1x1m_corner_a" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1d_1x1m_corner_a"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1d_2m_a"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1d_2m_a"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1d_2m_a" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1d_2m_a"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1d_2m_a_elevator_static"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1d_2m_a_elevator_static"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1d_2m_a_elevator_static" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1d_2m_a_elevator_static"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1d_2m_door_a"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1d_2m_door_a"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1d_2m_door_a" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1d_2m_door_a"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1d_2m_vent_a"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1d_2m_vent_a"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1d_2m_vent_a" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1d_2m_vent_a"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1d_4m_a"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1d_4m_a"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1d_4m_a" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1d_4m_a"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1d_4m_a_doubledoor"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1d_4m_a_doubledoor"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1d_4m_a_doubledoor" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1d_4m_a_doubledoor"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_cellceiling1_2x2m_a"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_cellceiling1_2x2m_a"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_cellceiling1_2x2m_a" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_cellceiling1_2x2m_a"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_flatceiling1_1x1m_a"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_flatceiling1_1x1m_a"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_flatceiling1_1x1m_a" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_flatceiling1_1x1m_a"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_flatceiling1_2x2m_a"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_flatceiling1_2x2m_a"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_flatceiling1_2x2m_a" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_flatceiling1_2x2m_a"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_flatceiling1_4x4m_a"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_flatceiling1_4x4m_a"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_flatceiling1_4x4m_a" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_flatceiling1_4x4m_a"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1_1m_a"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1_1m_a"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1_1m_a" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1_1m_a"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1_1x1m_corner_a"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1_1x1m_corner_a"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1_1x1m_corner_a" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1_1x1m_corner_a"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1_2m_a"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1_2m_a"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1_2m_a" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1_2m_a"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1_2m_arch_a"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1_2m_arch_a"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1_2m_arch_a" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1_2m_arch_a"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1_2m_door_a"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1_2m_door_a"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1_2m_door_a" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1_2m_door_a"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1_2m_window_a"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1_2m_window_a"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1_2m_window_a" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1_2m_window_a"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1_4m_a"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1_4m_a"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1_4m_a" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1_4m_a"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1_4m_a_doubledoor"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1_4m_a_doubledoor"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1_4m_a_doubledoor" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1_4m_a_doubledoor"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1_4m_a_doubledoor_villavivaldimainentrance"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1_4m_a_doubledoor_villavivaldimainentrance"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1_4m_a_doubledoor_villavivaldimainentrance" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1_4m_a_doubledoor_villavivaldimainentrance"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1_4m_arch_a"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1_4m_arch_a"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1_4m_arch_a" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1_4m_arch_a"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1_4m_b"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1_4m_b"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1_4m_b" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall1_4m_b"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall_arch_cap_a"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall_arch_cap_a"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall_arch_cap_a" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall_arch_cap_a"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall_arch_cap_b"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall_arch_cap_b"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall_arch_cap_b" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall_arch_cap_b"/>
+		<texture path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_01_df" unload="true"/>
+		<texture path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_01_nm" unload="true"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_wood_floor_2x2m"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_wood_floor_2x2m"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_wood_floor_2x2m" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_wood_floor_2x2m"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_wood_floor"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_wood_floor_dark"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_wood_floor_yacht"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_wood_floor_chca"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_wood_floor_light"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_wood_floor_light_pattern"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_wood_floor_red"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_wood_floor_brown"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_wood_floor_4x4m"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_wood_floor_4x4m"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_wood_floor_4x4m" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_wood_floor_4x4m"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_wood_floor_1x1m"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_wood_floor_1x1m"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_wood_floor_1x1m" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_wood_floor_1x1m"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_marble_floor_2x2m"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_marble_floor_2x2m"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_marble_floor_2x2m" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_marble_floor_2x2m"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_marble_floor"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_marble_floor_black"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_marble_floor_bigbank"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_marble_floor_black_dah"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_marble_floor_white_sah"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_marble_floor_white"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_marble_floor_beige_tiling"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_terracotta_floor"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_terracotta_middle_floor"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_marble_floor_black_pattern"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_marble_floor_4x4m"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_marble_floor_4x4m"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_marble_floor_4x4m" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_marble_floor_4x4m"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_marble_floor_1x1m"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_marble_floor_1x1m"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_marble_floor_1x1m" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_marble_floor_1x1m"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_wall_ext_4m"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_wall_ext_4m"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_wall_ext_4m"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_wall_ext_4m" unload="true"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_grass_floor_2x2m"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_grass_floor_2x2m"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_grass_floor_2x2m" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_grass_floor_2x2m"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_grass_floor"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_grass_floor_4x4m"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_grass_floor_4x4m"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_grass_floor_4x4m" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_grass_floor_4x4m"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_grass_floor_1x1m"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_grass_floor_1x1m"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_grass_floor_1x1m" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_grass_floor_1x1m"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_ext_pool_1"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_ext_pool_1"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_ext_pool_1" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_ext_pool_1"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_ext_pool_1"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_pillar_025m_a"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_pillar_025m_a"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_pillar_025m_a"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_pillar_025m_a" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_pillar_050m_a"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_pillar_050m_a"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_pillar_050m_a"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_pillar_050m_a" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_pillar1_025m_a"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_pillar1_025m_a"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_pillar1_025m_a"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_pillar1_025m_a" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_pillar1_050m_a"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_pillar1_050m_a"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_pillar1_050m_a"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_pillar1_050m_a" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_lightceiling1_1m_edgecorner_a"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_lightceiling1_1m_edgecorner_a"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_lightceiling1_1m_edgecorner_a"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_lightceiling1_1m_edgecorner_a" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_lightceiling1_1m_edgecorner_outer_a"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_lightceiling1_1m_edgecorner_outer_a"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_lightceiling1_1m_edgecorner_outer_a"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_lightceiling1_1m_edgecorner_outer_a" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_lightceiling1_1m_edgetile_a"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_lightceiling1_1m_edgetile_a"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_lightceiling1_1m_edgetile_a"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_lightceiling1_1m_edgetile_a" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_shelfwall1_2m_corner_a"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_shelfwall1_2m_corner_a"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_shelfwall1_2m_corner_a"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_shelfwall1_2m_corner_a" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_shelfwall1_4m_a"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_shelfwall1_4m_a"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_shelfwall1_4m_a"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_shelfwall1_4m_a" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_shelfwall1_2m_a"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_shelfwall1_2m_a"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_shelfwall1_2m_a"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_shelfwall1_2m_a" unload="true"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_trim_1x1m_a"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_trim_1x1m_a"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_trim_1x1m_a" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_trim_1x1m_a"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_trim_1x1m_b"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_trim_1x1m_b"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_trim_1x1m_b" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_trim_1x1m_b"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_trim_2x1m_a"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_trim_2x1m_a"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_trim_2x1m_a" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_trim_2x1m_a"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_trim_2x1m_b"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_trim_2x1m_b"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_trim_2x1m_b" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_trim_2x1m_b"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_trim_4x1m_a"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_trim_4x1m_a"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_trim_4x1m_a" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_trim_4x1m_a"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_trim_4x1m_b"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_trim_4x1m_b"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_trim_4x1m_b" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_trim_4x1m_b"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_trim_4x05m_a"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_trim_4x05m_a"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_trim_4x05m_a" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_trim_4x05m_a"/>
+		<sequence_manager path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall3d_4m_closetdoor_a"/>
+	</add>
+	<add>
+		<material_config path="units/pd2_mod_ton/textures/str"/>
+		<model path="units/pd2_mod_ton/str_ext_road_16x24m_cross_b/str_ext_road_16x24m_cross_b"/>
+		<object path="units/pd2_mod_ton/str_ext_road_16x24m_cross_b/str_ext_road_16x24m_cross_b"/>
+		<unit path="units/pd2_mod_ton/str_ext_road_16x24m_cross_b/str_ext_road_16x24m_cross_b"/>
+		<model path="units/pd2_mod_ton/str_ext_road_24x24m_tcross_b/str_ext_road_24x24m_tcross_b"/>
+		<object path="units/pd2_mod_ton/str_ext_road_24x24m_tcross_b/str_ext_road_24x24m_tcross_b"/>
+		<unit path="units/pd2_mod_ton/str_ext_road_24x24m_tcross_b/str_ext_road_24x24m_tcross_b"/>
+		<model path="units/pd2_mod_ton/str_ext_road_8x24m_b/str_ext_road_8x24m_b"/>
+		<object path="units/pd2_mod_ton/str_ext_road_8x24m_b/str_ext_road_8x24m_b"/>
+		<unit path="units/pd2_mod_ton/str_ext_road_8x24m_b/str_ext_road_8x24m_b"/>
+		<model path="units/pd2_mod_ton/str_ext_road_16x24m_d/str_ext_road_16x24m_d"/>
+		<object path="units/pd2_mod_ton/str_ext_road_16x24m_d/str_ext_road_16x24m_d"/>
+		<unit path="units/pd2_mod_ton/str_ext_road_16x24m_d/str_ext_road_16x24m_d"/>
+		<model path="units/pd2_mod_ton/lux_int_wall1_2m_vent_a/lux_int_wall1_2m_vent_a"/>
+		<object path="units/pd2_mod_ton/lux_int_wall1_2m_vent_a/lux_int_wall1_2m_vent_a"/>
+		<unit path="units/pd2_mod_ton/lux_int_wall1_2m_vent_a/lux_int_wall1_2m_vent_a"/>
+		<unit path="units/pd2_mod_ton/props/ton_prop_cashblast_exhibit/ton_prop_cashblast_exhibit"/>
+		<object path="units/pd2_mod_ton/props/ton_prop_cashblast_exhibit/ton_prop_cashblast_exhibit"/>
+		<model path="units/pd2_mod_ton/props/ton_prop_cashblast_exhibit/ton_prop_cashblast_exhibit"/>
+		<material_config path="units/pd2_mod_ton/props/ton_prop_cashblast_exhibit/ton_prop_cashblast_exhibit"/>
+		<material_config path="units/pd2_mod_ton/props/ton_prop_transport_exhibit/ton_prop_transport_exhibit"/>
+		<model path="units/pd2_mod_ton/props/ton_prop_transport_exhibit/ton_prop_transport_exhibit"/>
+		<object path="units/pd2_mod_ton/props/ton_prop_transport_exhibit/ton_prop_transport_exhibit"/>
+		<unit path="units/pd2_mod_ton/props/ton_prop_transport_exhibit/ton_prop_transport_exhibit"/>
+		<material_config path="units/pd2_mod_ton/props/ton_prop_shield_blockade/ton_prop_shield_blockade"/>
+		<model path="units/pd2_mod_ton/props/ton_prop_shield_blockade/ton_prop_shield_blockade"/>
+		<object path="units/pd2_mod_ton/props/ton_prop_shield_blockade/ton_prop_shield_blockade"/>
+		<unit path="units/pd2_mod_ton/props/ton_prop_shield_blockade/ton_prop_shield_blockade"/>
+		<cooked_physics path="units/pd2_mod_ton/lux_int_wall1_2m_vent_a/lux_int_wall1_2m_vent_a"/>
+		<texture path="units/pd2_mod_ton/props/ton_prop_shield_blockade/ene_acc_shield_lights_df"/>
+	</add>
+	<add>
+		<unit load="true" path="units/pd2_mod_ttr/characters/ene_acc_city_heavy_helmet/ene_acc_city_heavy_helmet" unload="true"/>
+		<material_config path="units/pd2_mod_ttr/characters/ene_acc_city_heavy_helmet/ene_acc_city_heavy_helmet" unload="true"/>
+		<model path="units/pd2_mod_ttr/characters/ene_acc_city_heavy_helmet/ene_acc_city_heavy_helmet" unload="true"/>
+		<object path="units/pd2_mod_ttr/characters/ene_acc_city_heavy_helmet/ene_acc_city_heavy_helmet" unload="true"/>
+		<unit load="true" path="units/pd2_mod_ttr/characters/ene_acc_city_swat_helmet/ene_acc_city_swat_helmet" unload="true"/>
+		<material_config path="units/pd2_mod_ttr/characters/ene_acc_city_swat_helmet/ene_acc_city_swat_helmet" unload="true"/>
+		<model path="units/pd2_mod_ttr/characters/ene_acc_city_swat_helmet/ene_acc_city_swat_helmet" unload="true"/>
+		<object path="units/pd2_mod_ttr/characters/ene_acc_city_swat_helmet/ene_acc_city_swat_helmet" unload="true"/>
+		<texture path="units/pd2_mod_ttr/characters/shared_textures/ene_city_heavy_df" unload="true"/>
+		<texture path="units/pd2_mod_ttr/characters/shared_textures/ene_city_heavy_nm" unload="true"/>
+		<texture path="units/pd2_mod_ttr/characters/shared_textures/heads_atlas_df" unload="true"/>
+		<texture path="units/pd2_mod_ttr/characters/shared_textures/heads_atlas_nm" unload="true"/>
+		<texture path="units/pd2_mod_ttr/characters/shared_textures/helmets_atlas_df" unload="true"/>
+		<texture path="units/pd2_mod_ttr/characters/shared_textures/helmets_atlas_nm" unload="true"/>
+		<texture path="units/pd2_mod_ttr/characters/shared_textures/helmets_heavy_taser_atlas_df" unload="true"/>
+		<texture path="units/pd2_mod_ttr/characters/shared_textures/helmets_heavy_taser_atlas_nm" unload="true"/>
+		<texture path="units/pd2_mod_ttr/characters/shared_textures/swat_city_df" unload="true"/>
+		<texture path="units/pd2_mod_ttr/characters/shared_textures/swat_body_nm" unload="true"/>
+		<unit load="true" path="units/pd2_mod_ttr/characters/ene_city_swat_1/ene_city_swat_1" unload="true"/>
+		<unit load="true" path="units/pd2_mod_ttr/characters/ene_city_swat_1/ene_city_swat_1_husk" unload="true"/>
+		<material_config path="units/pd2_mod_ttr/characters/ene_city_swat_1/ene_city_swat_1" unload="true"/>
+		<material_config path="units/pd2_mod_ttr/characters/ene_city_swat_1/ene_city_swat_1_contour" unload="true"/>
+		<model path="units/pd2_mod_ttr/characters/ene_city_swat_1/ene_city_swat_1" unload="true"/>
+		<object path="units/pd2_mod_ttr/characters/ene_city_swat_1/ene_city_swat_1" unload="true"/>
+		<unit load="true" path="units/pd2_mod_ttr/characters/ene_city_swat_2/ene_city_swat_2" unload="true"/>
+		<unit load="true" path="units/pd2_mod_ttr/characters/ene_city_swat_2/ene_city_swat_2_husk" unload="true"/>
+		<material_config path="units/pd2_mod_ttr/characters/ene_city_swat_2/ene_city_swat_2" unload="true"/>
+		<material_config path="units/pd2_mod_ttr/characters/ene_city_swat_2/ene_city_swat_2_contour" unload="true"/>
+		<model path="units/pd2_mod_ttr/characters/ene_city_swat_2/ene_city_swat_2" unload="true"/>
+		<object path="units/pd2_mod_ttr/characters/ene_city_swat_2/ene_city_swat_2" unload="true"/>
+		<unit load="true" path="units/pd2_mod_ttr/characters/ene_city_heavy_g36/ene_city_heavy_g36" unload="true"/>
+		<unit load="true" path="units/pd2_mod_ttr/characters/ene_city_heavy_g36/ene_city_heavy_g36_husk" unload="true"/>
+		<material_config path="units/pd2_mod_ttr/characters/ene_city_heavy_g36/ene_city_heavy_g36" unload="true"/>
+		<material_config path="units/pd2_mod_ttr/characters/ene_city_heavy_g36/ene_city_heavy_g36_contour" unload="true"/>
+		<model path="units/pd2_mod_ttr/characters/ene_city_heavy_g36/ene_city_heavy_g36" unload="true"/>
+		<object path="units/pd2_mod_ttr/characters/ene_city_heavy_g36/ene_city_heavy_g36" unload="true"/>
+		<unit load="true" path="units/pd2_mod_ttr/characters/ene_city_heavy_r870/ene_city_heavy_r870" unload="true"/>
+		<unit load="true" path="units/pd2_mod_ttr/characters/ene_city_heavy_r870/ene_city_heavy_r870_husk" unload="true"/>
+		<unit load="true" path="units/pd2_mod_ttr/characters/ene_fbi_gensec_1/ene_fbi_gensec_1" unload="true"/>
+		<unit load="true" path="units/pd2_mod_ttr/characters/ene_fbi_gensec_1/ene_fbi_gensec_1_husk" unload="true"/>
+		<unit load="true" path="units/pd2_mod_ttr/characters/ene_fbi_gensec_2/ene_fbi_gensec_2" unload="true"/>
+		<unit load="true" path="units/pd2_mod_ttr/characters/ene_fbi_gensec_2/ene_fbi_gensec_2_husk" unload="true"/>
+		<unit load="true" path="units/pd2_mod_ttr/characters/ene_fbi_gensec_heavy/ene_fbi_gensec_heavy" unload="true"/>
+		<unit load="true" path="units/pd2_mod_ttr/characters/ene_fbi_gensec_heavy/ene_fbi_gensec_heavy_husk" unload="true"/>
+		<unit load="true" path="units/pd2_mod_ttr/characters/ene_fbi_gensec_heavy_r870/ene_fbi_gensec_heavy_r870" unload="true"/>
+		<unit load="true" path="units/pd2_mod_ttr/characters/ene_fbi_gensec_heavy_r870/ene_fbi_gensec_heavy_r870_husk" unload="true"/>
+		<unit load="true" path="units/pd2_mod_ttr/characters/ene_fbi_gensec_shield/ene_fbi_gensec_shield" unload="true"/>
+		<unit load="true" path="units/pd2_mod_ttr/characters/ene_fbi_gensec_shield/ene_fbi_gensec_shield_husk" unload="true"/>
+		<unit load="true" path="units/pd2_mod_ttr/characters/ene_swat_gensec_1/ene_swat_gensec_1" unload="true"/>
+		<unit load="true" path="units/pd2_mod_ttr/characters/ene_swat_gensec_1/ene_swat_gensec_1_husk" unload="true"/>
+		<unit load="true" path="units/pd2_mod_ttr/characters/ene_swat_gensec_2/ene_swat_gensec_2" unload="true"/>
+		<unit load="true" path="units/pd2_mod_ttr/characters/ene_swat_gensec_2/ene_swat_gensec_2_husk" unload="true"/>
+		<unit load="true" path="units/pd2_mod_ttr/characters/ene_swat_gensec_heavy_1/ene_swat_gensec_heavy_1" unload="true"/>
+		<unit load="true" path="units/pd2_mod_ttr/characters/ene_swat_gensec_heavy_1/ene_swat_gensec_heavy_1_husk" unload="true"/>
+		<unit load="true" path="units/pd2_mod_ttr/characters/ene_swat_gensec_heavy_2/ene_swat_gensec_heavy_2" unload="true"/>
+		<unit load="true" path="units/pd2_mod_ttr/characters/ene_swat_gensec_heavy_2/ene_swat_gensec_heavy_2_husk" unload="true"/>
+		<unit load="true" path="units/pd2_mod_ttr/characters/ene_swat_gensec_shield/ene_swat_gensec_shield" unload="true"/>
+		<unit load="true" path="units/pd2_mod_ttr/characters/ene_swat_gensec_shield/ene_swat_gensec_shield_husk" unload="true"/>
+		<unit load="true" path="units/pd2_mod_ttr/characters/ene_zeal_gensec_1/ene_zeal_gensec_1" unload="true"/>
+		<unit load="true" path="units/pd2_mod_ttr/characters/ene_zeal_gensec_1/ene_zeal_gensec_1_husk" unload="true"/>
+		<unit load="true" path="units/pd2_mod_ttr/characters/ene_zeal_gensec_heavy_1/ene_zeal_gensec_heavy_1" unload="true"/>
+		<unit load="true" path="units/pd2_mod_ttr/characters/ene_zeal_gensec_heavy_1/ene_zeal_gensec_heavy_1_husk" unload="true"/>
+		<unit load="true" path="units/pd2_mod_ttr/characters/ene_marshal_gensec/ene_marshal_gensec" unload="true"/>
+		<unit load="true" path="units/pd2_mod_ttr/characters/ene_marshal_gensec/ene_marshal_gensec" unload="true"/>
+		<material_config path="units/pd2_mod_ttr/characters/ene_marshal_gensec/ene_marshal_gensec" unload="true"/>
+		<material_config path="units/pd2_mod_ttr/characters/ene_marshal_gensec/ene_marshal_gensec_contour" unload="true"/>
+		<model path="units/pd2_mod_ttr/characters/ene_marshal_gensec/ene_marshal_gensec" unload="true"/>
+		<object path="units/pd2_mod_ttr/characters/ene_marshal_gensec/ene_marshal_gensec" unload="true"/>
+		<unit load="true" path="units/pd2_mod_ttr/characters/civ_male_buyer/civ_male_buyer" unload="true"/>
+		<unit load="true" path="units/pd2_mod_ttr/characters/civ_male_buyer/civ_male_buyer_husk" unload="true"/>
+		<material_config path="units/pd2_mod_ttr/characters/civ_male_buyer/civ_male_buyer" unload="true"/>
+		<material_config path="units/pd2_mod_ttr/characters/civ_male_buyer/civ_male_buyer_contour" unload="true"/>
+		<model path="units/pd2_mod_ttr/characters/civ_male_buyer/civ_male_buyer" unload="true"/>
+		<object path="units/pd2_mod_ttr/characters/civ_male_buyer/civ_male_buyer" unload="true"/>
+		<unit load="true" path="units/pd2_mod_ttr/characters/civ_douchebag_contractor/civ_douchebag_contractor" unload="true"/>
+		<unit load="true" path="units/pd2_mod_ttr/characters/civ_douchebag_contractor/civ_douchebag_contractor_husk" unload="true"/>
+		<material_config path="units/pd2_mod_ttr/characters/civ_douchebag_contractor/civ_douchebag_contractor" unload="true"/>
+		<material_config path="units/pd2_mod_ttr/characters/civ_douchebag_contractor/civ_douchebag_contractor_contour" unload="true"/>
+		<model path="units/pd2_mod_ttr/characters/civ_douchebag_contractor/civ_douchebag_contractor" unload="true"/>
+		<object path="units/pd2_mod_ttr/characters/civ_douchebag_contractor/civ_douchebag_contractor" unload="true"/>
+		<texture path="units/pd2_mod_ttr/characters/civ_douchebag_contractor/civ_douchebag_contractor_df" unload="true"/>
+	</add>
+	<add>
+		<texture path="units/pd2_mod_transit/vehicles/truck_gensec_transport_mk2_static/truck_gensec_transport_mk2_decal"/>
+		<texture path="units/pd2_mod_transit/vehicles/truck_gensec_transport_mk2_static/truck_gensec_transport_mk2_df"/>
+		<texture path="units/pd2_mod_transit/vehicles/truck_gensec_transport_mk2_static/truck_gensec_transport_mk2_nm"/>
+		<material_config path="units/pd2_mod_transit/vehicles/truck_gensec_transport_mk2_static/truck_gensec_transport_mk2_static"/>
+		<model path="units/pd2_mod_transit/vehicles/truck_gensec_transport_mk2_static/truck_gensec_transport_mk2_static"/>
+		<object path="units/pd2_mod_transit/vehicles/truck_gensec_transport_mk2_static/truck_gensec_transport_mk2_static"/>
+		<unit path="units/pd2_mod_transit/vehicles/truck_gensec_transport_mk2_static/truck_gensec_transport_mk2_static"/>
+	</add>
+	<add>
+		<texture path="units/pd2_mod_ton/ton_large_titan_shutter_black/brb_railing_metallics_gsma"/>
+		<texture path="units/pd2_mod_ton/ton_large_titan_shutter_black/brb_railing_metallics_nm"/>
+		<texture path="units/pd2_mod_ton/ton_large_titan_shutter_black/brb_railing_metallics_df"/>
+		<texture path="units/pd2_mod_ton/ton_large_titan_shutter_black/are_corridor_barrier_df"/>
+		<texture path="units/pd2_mod_ton/ton_large_titan_shutter_black/are_corridor_barrier_nm"/>
+		<texture path="units/pd2_mod_ton/ton_large_titan_shutter_black/chca_prop_security_safe_nm"/>
+		<texture path="units/pd2_mod_ton/ton_large_titan_shutter_black/chca_prop_security_safe_titan_df"/>
+		<texture path="units/pd2_mod_ton/ton_large_titan_shutter_black/chca_railing_metallics_df"/>
+		<texture path="units/pd2_mod_ton/ton_large_titan_shutter_black/chca_railing_metallics_gsma"/>
+		<texture path="units/pd2_mod_ton/ton_large_titan_shutter_black/chca_railing_metallics_nm"/>
+		<cooked_physics path="units/pd2_mod_ton/ton_large_titan_shutter_black/brb_prop_titan_shutters_03"/>
+		<material_config path="units/pd2_mod_ton/ton_large_titan_shutter_black/brb_prop_titan_shutters"/>
+		<model path="units/pd2_mod_ton/ton_large_titan_shutter_black/brb_prop_titan_shutters_03"/>
+		<object path="units/pd2_mod_ton/ton_large_titan_shutter_black/brb_prop_titan_shutters_03"/>
+		<sequence_manager path="units/pd2_mod_ton/ton_large_titan_shutter_black/brb_prop_titan_shutters_03"/>
+		<unit path="units/pd2_mod_ton/ton_large_titan_shutter_black/brb_prop_titan_shutters_03"/>
+	</add>
+	<add>
+        <material_config path="units/pd2_mod_ton/equipment/ton_remote_hack_computer/ton_remote_hack_computer"/>
+        <model path="units/pd2_mod_ton/equipment/ton_remote_hack_computer/ton_remote_hack_computer"/>
+        <object path="units/pd2_mod_ton/equipment/ton_remote_hack_computer/ton_remote_hack_computer"/>
+        <sequence_manager path="units/pd2_mod_ton/equipment/ton_remote_hack_computer/ton_remote_hack_computer"/>
+        <texture path="guis/textures/pd2/hacking_segment_df"/>
+        <unit path="units/pd2_mod_ton/equipment/ton_remote_hack_computer/ton_remote_hack_computer"/>
+    </add>
+    <add>
+        <cooked_physics path="units/pd2_mod_ton/props/ton_prop_titan_shutter_black/ton_prop_titan_shutter_black"/>
+        <material_config path="units/pd2_mod_ton/props/ton_prop_titan_shutter_black/ton_prop_titan_shutter_black"/>
+        <model path="units/pd2_mod_ton/props/ton_prop_titan_shutter_black/ton_prop_titan_shutter_black"/>
+        <object path="units/pd2_mod_ton/props/ton_prop_titan_shutter_black/ton_prop_titan_shutter_black"/>
+        <sequence_manager path="units/pd2_mod_ton/props/ton_prop_titan_shutter_black/ton_prop_titan_shutter_black"/>
+        <unit path="units/pd2_mod_ton/props/ton_prop_titan_shutter_black/ton_prop_titan_shutter_black"/>
+    </add>
+	<add>
+		<unit load="true" path="units/pd2_mod_ttr/characters/ene_fbi_gensec_1/ene_fbi_gensec_1" unload="true"/>
+		<unit load="true" path="units/pd2_mod_ttr/characters/ene_fbi_gensec_1/ene_fbi_gensec_1_husk" unload="true"/>
+		<unit load="true" path="units/pd2_mod_ttr/characters/ene_fbi_gensec_2/ene_fbi_gensec_2" unload="true"/>
+		<unit load="true" path="units/pd2_mod_ttr/characters/ene_fbi_gensec_2/ene_fbi_gensec_2_husk" unload="true"/>
+		<unit load="true" path="units/pd2_mod_ttr/characters/ene_fbi_gensec_heavy/ene_fbi_gensec_heavy" unload="true"/>
+		<unit load="true" path="units/pd2_mod_ttr/characters/ene_fbi_gensec_heavy/ene_fbi_gensec_heavy_husk" unload="true"/>
+		<unit load="true" path="units/pd2_mod_ttr/characters/ene_fbi_gensec_heavy_r870/ene_fbi_gensec_heavy_r870" unload="true"/>
+		<unit load="true" path="units/pd2_mod_ttr/characters/ene_fbi_gensec_heavy_r870/ene_fbi_gensec_heavy_r870_husk" unload="true"/>
+		<unit load="true" path="units/pd2_mod_ttr/characters/ene_fbi_gensec_shield/ene_fbi_gensec_shield" unload="true"/>
+		<unit load="true" path="units/pd2_mod_ttr/characters/ene_fbi_gensec_shield/ene_fbi_gensec_shield_husk" unload="true"/>
+		<unit load="true" path="units/pd2_mod_ttr/characters/ene_swat_gensec_1/ene_swat_gensec_1" unload="true"/>
+		<unit load="true" path="units/pd2_mod_ttr/characters/ene_swat_gensec_1/ene_swat_gensec_1_husk" unload="true"/>
+		<unit load="true" path="units/pd2_mod_ttr/characters/ene_swat_gensec_2/ene_swat_gensec_2" unload="true"/>
+		<unit load="true" path="units/pd2_mod_ttr/characters/ene_swat_gensec_2/ene_swat_gensec_2_husk" unload="true"/>
+		<unit load="true" path="units/pd2_mod_ttr/characters/ene_swat_gensec_heavy_1/ene_swat_gensec_heavy_1" unload="true"/>
+		<unit load="true" path="units/pd2_mod_ttr/characters/ene_swat_gensec_heavy_1/ene_swat_gensec_heavy_1_husk" unload="true"/>
+		<unit load="true" path="units/pd2_mod_ttr/characters/ene_swat_gensec_heavy_2/ene_swat_gensec_heavy_2" unload="true"/>
+		<unit load="true" path="units/pd2_mod_ttr/characters/ene_swat_gensec_heavy_2/ene_swat_gensec_heavy_2_husk" unload="true"/>
+		<unit load="true" path="units/pd2_mod_ttr/characters/ene_swat_gensec_shield/ene_swat_gensec_shield" unload="true"/>
+		<unit load="true" path="units/pd2_mod_ttr/characters/ene_swat_gensec_shield/ene_swat_gensec_shield_husk" unload="true"/>
+		<unit load="true" path="units/pd2_mod_ttr/characters/ene_zeal_gensec_1/ene_zeal_gensec_1" unload="true"/>
+		<unit load="true" path="units/pd2_mod_ttr/characters/ene_zeal_gensec_1/ene_zeal_gensec_1_husk" unload="true"/>
+		<unit load="true" path="units/pd2_mod_ttr/characters/ene_zeal_gensec_heavy_1/ene_zeal_gensec_heavy_1" unload="true"/>
+		<unit load="true" path="units/pd2_mod_ttr/characters/ene_zeal_gensec_heavy_1/ene_zeal_gensec_heavy_1_husk" unload="true"/>
+	</add>
+	<add>
+		<df_nm path="units/pd2_mod_gensec/ene_acc_shield_city/cityshield"/>
+		<unit path="units/pd2_mod_gensec/ene_city_shield/ene_city_shield"/>
+		<unit path="units/pd2_mod_gensec/ene_city_shield/ene_city_shield_husk"/>
+		<unit path="units/pd2_mod_gensec/ene_city_swat_3/ene_city_swat_3"/>
+		<unit path="units/pd2_mod_gensec/ene_city_swat_2/ene_city_swat_2_husk"/>
+		<unit path="units/pd2_mod_gensec/ene_city_swat_r870/ene_city_swat_r870"/>
+		<unit path="units/pd2_mod_gensec/ene_city_swat_r870/ene_city_swat_r870_husk"/>
+		<texture path="units/pd2_mod_gensec/shared_textures/swat_shotty_df"/>
+		<unit path="units/pd2_mod_gensec/ene_city_heavy_g36/ene_city_heavy_g36"/>
+		<unit path="units/pd2_mod_gensec/ene_city_heavy_g36/ene_city_heavy_g36_husk"/>
+		<unit path="units/pd2_mod_gensec/ene_city_heavy_r870/ene_city_heavy_r870"/>
+		<unit path="units/pd2_mod_gensec/ene_city_heavy_r870/ene_city_heavy_r870_husk"/>
+		<texture path="units/pd2_mod_gensec/shared_textures/ene_shotty_heavy_df"/>
+		<unit path="units/pd2_mod_gensec/ene_city_swat_1/ene_city_swat_1_husk"/>
+		<df_nm path="units/pd2_dlc_drm/characters/ene_bulldozer_minigun_classic/mask"/>
+		<object path="units/pd2_dlc_drm/characters/ene_bulldozer_minigun_classic/ene_bulldozer_minigun_classic"/>
+		<df_nm path="units/pd2_mod_gensec/shared_textures/gensec_atlas"/>
+		<texture path="units/pd2_mod_gensec/ene_acc_shield_city/cityshield_df"/>
+		<texture path="units/pd2_mod_gensec/ene_acc_shield_city/cityshield_nm"/>
+		<material_config path="units/pd2_mod_gensec/ene_acc_shield_city/ene_acc_shield_city"/>
+		<model path="units/pd2_mod_gensec/ene_acc_shield_city/ene_acc_shield_city"/>
+		<object path="units/pd2_mod_gensec/ene_acc_shield_city/ene_acc_shield_city"/>
+		<unit path="units/pd2_mod_gensec/ene_acc_shield_city/ene_acc_shield_city"/>
+		<material_config path="units/pd2_mod_gensec/ene_city_heavy_g36/ene_city_heavy_g36"/>
+		<model path="units/pd2_mod_gensec/ene_city_heavy_g36/ene_city_heavy_g36"/>
+		<object path="units/pd2_mod_gensec/ene_city_heavy_g36/ene_city_heavy_g36"/>
+		<unit path="units/pd2_mod_gensec/ene_city_heavy_g36/ene_city_heavy_g36"/>
+		<material_config path="units/pd2_mod_gensec/ene_city_heavy_r870/ene_city_heavy_r870"/>
+		<material_config path="units/pd2_mod_gensec/ene_city_heavy_r870/ene_city_heavy_r870_contour"/>
+		<model path="units/pd2_mod_gensec/ene_city_heavy_r870/ene_city_heavy_r870"/>
+		<object path="units/pd2_mod_gensec/ene_city_heavy_r870/ene_city_heavy_r870"/>
+		<unit path="units/pd2_mod_gensec/ene_city_heavy_r870/ene_city_heavy_r870"/>
+		<unit path="units/pd2_mod_gensec/ene_city_shield/ene_city_shield"/>
+		<unit path="units/pd2_mod_gensec/ene_city_shield/ene_city_shield_husk"/>
+		<material_config path="units/pd2_mod_gensec/ene_city_swat_1/ene_city_swat_1"/>
+		<material_config path="units/pd2_mod_gensec/ene_city_swat_1/ene_city_swat_1_contour"/>
+		<model path="units/pd2_mod_gensec/ene_city_swat_1/ene_city_swat_1"/>
+		<material_config path="units/pd2_mod_gensec/ene_city_swat_2/ene_city_swat_2_contour"/>
+		<material_config path="units/pd2_mod_gensec/ene_city_swat_2/ene_city_swat_2"/>
+		<model path="units/pd2_mod_gensec/ene_city_swat_2/ene_city_swat_2"/>
+		<material_config path="units/pd2_mod_gensec/ene_city_swat_3/ene_city_swat_3"/>
+		<material_config path="units/pd2_mod_gensec/ene_city_swat_3/ene_city_swat_3_contour"/>
+		<model path="units/pd2_mod_gensec/ene_city_swat_3/ene_city_swat_3"/>
+		<unit path="units/pd2_mod_gensec/ene_city_swat_3/ene_city_swat_3"/>
+		<object path="units/pd2_mod_gensec/ene_city_swat_3/ene_city_swat_3"/>
+		<unit path="units/pd2_mod_gensec/ene_city_swat_r870/ene_city_swat_r870"/>
+		<unit path="units/pd2_mod_gensec/ene_city_swat_r870/ene_city_swat_r870_husk"/>
+		<texture path="units/pd2_mod_gensec/shared_textures/bulldozer_city_df"/>
+		<texture path="units/pd2_mod_gensec/shared_textures/ene_city_heavy_df"/>
+		<texture path="units/pd2_mod_gensec/shared_textures/ene_city_heavy_nm"/>
+		<texture path="units/pd2_mod_gensec/shared_textures/ene_shotty_heavy_df"/>
+		<texture path="units/pd2_mod_gensec/shared_textures/gensec_atlas_df"/>
+		<texture path="units/pd2_mod_gensec/shared_textures/gensec_atlas_nm"/>
+		<texture path="units/pd2_mod_gensec/shared_textures/swat_city_df"/>
+		<texture path="units/pd2_mod_gensec/shared_textures/swat_shotty_df"/>
+		<cooked_physics path="units/pd2_mod_gensec/ene_acc_shield_city/ene_acc_shield_city"/>
+		<unit_mat path="units/pd2_mod_gensec/ene_acc_shield_city/ene_acc_shield_city"/>
+	</add>
+	<add>
+		<model path="units/pd2_mod_ton/bnk_int_wall_4m_c/bnk_int_wall_4m_c"/>
+		<object path="units/pd2_mod_ton/bnk_int_wall_4m_c/bnk_int_wall_4m_c"/>
+		<unit path="units/pd2_mod_ton/bnk_int_wall_4m_c/bnk_int_wall_4m_c"/>
+		<cooked_physics path="units/pd2_mod_ton/bnk_int_wall_4m_c/bnk_int_wall_4m_c"/>
+		<material_config path="units/pd2_mod_ton/bnk_int_wall_4m_c/bnk_int"/>
+		<material_config path="units/pd2_mod_ton/bnk_int_wall_4m_c/bnk_int_b"/>
+		<material_config path="units/pd2_mod_ton/bnk_int_wall_4m_c/bnk_int_c"/>
+		<material_config path="units/pd2_mod_ton/bnk_int_wall_4m_c/bnk_int_d"/>
+		<material_config path="units/pd2_mod_ton/bnk_int_wall_4m_c/bnk_int_e"/>
+		<model path="units/pd2_mod_bnk/architecture/bnk/bnk_int_wall_office_2m_a"/>
+		<object path="units/pd2_mod_bnk/architecture/bnk/bnk_int_wall_office_2m_a"/>
+		<unit load="true" path="units/pd2_mod_bnk/architecture/bnk/bnk_int_wall_office_2m_a" unload="true"/>
+		<cooked_physics path="units/pd2_mod_bnk/architecture/bnk/bnk_int_wall_office_2m_a"/>
+		<model path="units/pd2_mod_bnk/architecture/bnk/bnk_int_wall_office_1m_a"/>
+		<object path="units/pd2_mod_bnk/architecture/bnk/bnk_int_wall_office_1m_a"/>
+		<unit load="true" path="units/pd2_mod_bnk/architecture/bnk/bnk_int_wall_office_1m_a" unload="true"/>
+		<cooked_physics path="units/pd2_mod_bnk/architecture/bnk/bnk_int_wall_office_1m_a"/>
+		<model path="units/pd2_mod_bnk/architecture/bnk/bnk_int_wall_4m_b"/>
+		<object path="units/pd2_mod_bnk/architecture/bnk/bnk_int_wall_4m_b"/>
+		<unit load="true" path="units/pd2_mod_bnk/architecture/bnk/bnk_int_wall_4m_b" unload="true"/>
+		<cooked_physics path="units/pd2_mod_bnk/architecture/bnk/bnk_int_wall_4m_b"/>
+		<model path="units/pd2_mod_bnk/architecture/bnk/bnk_int_wall_2m_window_round"/>
+		<object path="units/pd2_mod_bnk/architecture/bnk/bnk_int_wall_2m_window_round"/>
+		<unit load="true" path="units/pd2_mod_bnk/architecture/bnk/bnk_int_wall_2m_window_round" unload="true"/>
+		<cooked_physics path="units/pd2_mod_bnk/architecture/bnk/bnk_int_wall_2m_window_round"/>
+		<model path="units/pd2_mod_bnk/architecture/bnk/bnk_int_wall_2m_b"/>
+		<object path="units/pd2_mod_bnk/architecture/bnk/bnk_int_wall_2m_b"/>
+		<unit load="true" path="units/pd2_mod_bnk/architecture/bnk/bnk_int_wall_2m_b" unload="true"/>
+		<cooked_physics path="units/pd2_mod_bnk/architecture/bnk/bnk_int_wall_2m_b"/>
+		<model path="units/pd2_mod_bnk/architecture/bnk/bnk_int_wall_2m_a"/>
+		<object path="units/pd2_mod_bnk/architecture/bnk/bnk_int_wall_2m_a"/>
+		<unit load="true" path="units/pd2_mod_bnk/architecture/bnk/bnk_int_wall_2m_a" unload="true"/>
+		<cooked_physics path="units/pd2_mod_bnk/architecture/bnk/bnk_int_wall_2m_a"/>
+		<model path="units/pd2_mod_bnk/architecture/bnk/bnk_int_pillar_05m_a"/>
+		<object path="units/pd2_mod_bnk/architecture/bnk/bnk_int_pillar_05m_a"/>
+		<unit load="true" path="units/pd2_mod_bnk/architecture/bnk/bnk_int_pillar_05m_a" unload="true"/>
+		<cooked_physics path="units/pd2_mod_bnk/architecture/bnk/bnk_int_pillar_05m_a"/>
+		<model path="units/pd2_mod_bnk/architecture/bnk/bnk_int_wall_1m_a"/>
+		<object path="units/pd2_mod_bnk/architecture/bnk/bnk_int_wall_1m_a"/>
+		<unit load="true" path="units/pd2_mod_bnk/architecture/bnk/bnk_int_wall_1m_a" unload="true"/>
+		<cooked_physics path="units/pd2_mod_bnk/architecture/bnk/bnk_int_wall_1m_a"/>
+		<material_config path="units/pd2_mod_bnk/architecture/bnk/bnk_int"/>
+		<material_config path="units/pd2_mod_bnk/architecture/bnk/bnk_int_b"/>
+		<material_config path="units/pd2_mod_bnk/architecture/bnk/bnk_int_c"/>
+		<material_config path="units/pd2_mod_bnk/architecture/bnk/bnk_int_d"/>
+		<material_config path="units/pd2_mod_bnk/architecture/bnk/bnk_int_e"/>
+		<texture path="units/pd2_mod_bnk/architecture/bnk/bnk_int_part_01_df" unload="true"/>
+		<texture path="units/pd2_mod_bnk/architecture/bnk/bnk_int_part_01_nm" unload="true"/>
+		<texture path="units/pd2_mod_bnk/architecture/bnk/bnk_int_part_01b_df" unload="true"/>
+		<texture path="units/pd2_mod_bnk/architecture/bnk/bnk_int_part_01c_df" unload="true"/>
+		<texture path="units/pd2_mod_bnk/architecture/bnk/bnk_int_part_01d_df" unload="true"/>
+		<texture path="units/pd2_mod_bnk/architecture/bnk/bnk_int_part_01e_df" unload="true"/>
+		<cooked_physics path="units/pd2_mod_bnk/architecture/bnk_ext_entrance/bnk_ext_entrance_b"/>
+		<model path="units/pd2_mod_bnk/architecture/bnk_ext_entrance/bnk_ext_entrance_b"/>
+		<object path="units/pd2_mod_bnk/architecture/bnk_ext_entrance/bnk_ext_entrance_b"/>
+		<unit load="true" path="units/pd2_mod_bnk/architecture/bnk_ext_entrance/bnk_ext_entrance_b" unload="true"/>
+		<cooked_physics path="units/pd2_mod_bnk/architecture/bnk_ext_entrance/bnk_ext_entrance_b"/>
+		<material_config path="units/pd2_mod_bnk/architecture/bnk_ext_entrance/bnk_ext_entrance"/>
+		<material_config path="units/pd2_mod_bnk/architecture/bnk_ext_entrance/bnk_ext_entrance_b"/>
+		<material_config path="units/pd2_mod_bnk/architecture/bnk_ext_entrance/bnk_ext_entrance_c"/>
+		<material_config path="units/pd2_mod_bnk/architecture/bnk_ext_entrance/bnk_ext_entrance_d"/>
+		<material_config path="units/pd2_mod_bnk/architecture/bnk_ext_entrance/bnk_ext_entrance_e"/>
+		<material_config path="units/pd2_mod_bnk/architecture/bnk_ext_entrance/bnk_ext_entrance_gray_a"/>
+		<material_config path="units/pd2_mod_bnk/architecture/bnk_ext_entrance/bnk_ext_entrance_gray_b"/>
+		<material_config path="units/pd2_mod_bnk/architecture/bnk_ext_entrance/bnk_ext_entrance_gray_c"/>
+		<material_config path="units/pd2_mod_bnk/architecture/bnk_ext_entrance/bnk_ext_entrance_gray_d"/>
+		<material_config path="units/pd2_mod_bnk/architecture/bnk_ext_entrance/bnk_ext_entrance_gray_e"/>
+		<material_config path="units/pd2_mod_bnk/architecture/bnk_ext_entrance/bnk_ext_entrance_orange_a"/>
+		<material_config path="units/pd2_mod_bnk/architecture/bnk_ext_entrance/bnk_ext_entrance_orange_b"/>
+		<material_config path="units/pd2_mod_bnk/architecture/bnk_ext_entrance/bnk_ext_entrance_orange_c"/>
+		<material_config path="units/pd2_mod_bnk/architecture/bnk_ext_entrance/bnk_ext_entrance_orange_d"/>
+		<material_config path="units/pd2_mod_bnk/architecture/bnk_ext_entrance/bnk_ext_entrance_orange_e"/>
+		<texture path="units/pd2_mod_bnk/architecture/bnk_ext_entrance/cus_b_ext_01b_df" unload="true"/>
+		<texture path="units/pd2_mod_bnk/architecture/bnk_ext_entrance/cus_b_ext_01c_df" unload="true"/>
+		<material_config path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm"/>
+		<material_config path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_gray"/>
+		<material_config path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_orange"/>
+		<cooked_physics path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_roofstairs"/>
+		<model path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_roofstairs"/>
+		<object path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_roofstairs"/>
+		<unit load="true" path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_roofstairs" unload="true"/>
+		<cooked_physics path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall_window_square_4x4m"/>
+		<model path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall_window_square_4x4m"/>
+		<object path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall_window_square_4x4m"/>
+		<unit load="true" path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall_window_square_4x4m" unload="true"/>
+		<model path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall_4x1m_a"/>
+		<object path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall_4x1m_a"/>
+		<unit load="true" path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall_4x1m_a" unload="true"/>
+		<cooked_physics path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall_4x1m_a"/>
+		<model path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall_4x2m_a"/>
+		<object path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall_4x2m_a"/>
+		<unit load="true" path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall_4x2m_a" unload="true"/>
+		<cooked_physics path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall_4x2m_a"/>
+		<model path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall_4x4m_a"/>
+		<object path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall_4x4m_a"/>
+		<unit load="true" path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall_4x4m_a" unload="true"/>
+		<cooked_physics path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall_4x4m_a"/>
+		<model path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall_4x4m_a_door"/>
+		<object path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall_4x4m_a_door"/>
+		<unit load="true" path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall_4x4m_a_door" unload="true"/>
+		<cooked_physics path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall_4x4m_a_door"/>
+		<model path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall_4x4m_b"/>
+		<object path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall_4x4m_b"/>
+		<unit load="true" path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall_4x4m_b" unload="true"/>
+		<cooked_physics path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall_4x4m_b"/>
+		<model path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall_4x8m_a"/>
+		<object path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall_4x8m_a"/>
+		<unit load="true" path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall_4x8m_a" unload="true"/>
+		<cooked_physics path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall_4x8m_a"/>
+		<model path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall_4x8m_b"/>
+		<object path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall_4x8m_b"/>
+		<unit load="true" path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall_4x8m_b" unload="true"/>
+		<cooked_physics path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall_4x8m_b"/>
+		<model path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall_4x8m_c"/>
+		<object path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall_4x8m_c"/>
+		<unit load="true" path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall_4x8m_c" unload="true"/>
+		<cooked_physics path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall_4x8m_c"/>
+		<model path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall_4x8m_d"/>
+		<object path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall_4x8m_d"/>
+		<unit load="true" path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall_4x8m_d" unload="true"/>
+		<cooked_physics path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall_4x8m_d"/>
+		<model path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall_storefront1_4x4m_a"/>
+		<object path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall_storefront1_4x4m_a"/>
+		<unit load="true" path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall_storefront1_4x4m_a" unload="true"/>
+		<cooked_physics path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall_storefront1_4x4m_a"/>
+		<model path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall_storefront1_4x4m_b"/>
+		<object path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall_storefront1_4x4m_b"/>
+		<unit load="true" path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall_storefront1_4x4m_b" unload="true"/>
+		<cooked_physics path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall_storefront1_4x4m_b"/>
+		<model path="units/pd2_mod_bnk/architecture/bnk_ext_window_round/bnk_ext_wall_window_2m"/>
+		<object path="units/pd2_mod_bnk/architecture/bnk_ext_window_round/bnk_ext_wall_window_2m"/>
+		<unit load="true" path="units/pd2_mod_bnk/architecture/bnk_ext_window_round/bnk_ext_wall_window_2m" unload="true"/>
+		<cooked_physics path="units/pd2_mod_bnk/architecture/bnk_ext_window_round/bnk_ext_wall_window_2m"/>
+		<model path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall2_4x4m_a_door"/>
+		<object path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall2_4x4m_a_door"/>
+		<unit load="true" path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall2_4x4m_a_door" unload="true"/>
+		<cooked_physics path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall2_4x4m_a_door"/>
+		<model path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall2_4x4m_a_nowin"/>
+		<object path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall2_4x4m_a_nowin"/>
+		<unit load="true" path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall2_4x4m_a_nowin" unload="true"/>
+		<cooked_physics path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall2_4x4m_a_nowin"/>
+		<model path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall2_4x8m_a"/>
+		<object path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall2_4x8m_a"/>
+		<unit load="true" path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall2_4x8m_a" unload="true"/>
+		<cooked_physics path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall2_4x8m_a"/>
+		<model path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall2_4x8m_b"/>
+		<object path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall2_4x8m_b"/>
+		<unit load="true" path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall2_4x8m_b" unload="true"/>
+		<cooked_physics path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall2_4x8m_b"/>
+		<model path="units/pd2_mod_bnk/architecture/bnk_ext_window_round/bnk_ext_wall_window_4m"/>
+		<object path="units/pd2_mod_bnk/architecture/bnk_ext_window_round/bnk_ext_wall_window_4m"/>
+		<unit load="true" path="units/pd2_mod_bnk/architecture/bnk_ext_window_round/bnk_ext_wall_window_4m" unload="true"/>
+		<cooked_physics path="units/pd2_mod_bnk/architecture/bnk_ext_window_round/bnk_ext_wall_window_4m"/>
+		<material_config path="units/pd2_mod_bnk/architecture/bnk_ext_window_round/bnk_ext_window_round"/>
+		<material_config path="units/pd2_mod_bnk/architecture/bnk_ext_window_round/bnk_ext_window_round_gray"/>
+		<material_config path="units/pd2_mod_bnk/architecture/bnk_ext_window_round/bnk_ext_window_round_orange"/>
+		<cooked_physics path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall_window_square_4x8m"/>
+		<model path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall_window_square_4x8m"/>
+		<object path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall_window_square_4x8m"/>
+		<unit load="true" path="units/pd2_mod_bnk/architecture/bnk_ext_lcm/bnk_ext_lcm_wall_window_square_4x8m" unload="true"/>
+		<material_config path="units/pd2_mod_bnk/props/bnk_prop_vault_door_light/bnk_prop_vault_door_light"/>
+		<material_config path="units/pd2_mod_bnk/props/bnk_prop_vault_door_light/bnk_prop_vault_door_light_b"/>
+		<material_config path="units/pd2_mod_bnk/props/bnk_prop_vault_door_light/bnk_prop_vault_door_light_c"/>
+		<material_config path="units/pd2_mod_bnk/props/bnk_prop_vault_door_light/bnk_prop_vault_door_light_d"/>
+		<material_config path="units/pd2_mod_bnk/props/bnk_prop_vault_door_light/bnk_prop_vault_door_light_e"/>
+		<model path="units/pd2_mod_bnk/architecture/bnk/bnk_int_wall_2m_window_square"/>
+		<object path="units/pd2_mod_bnk/architecture/bnk/bnk_int_wall_2m_window_square"/>
+		<unit load="true" path="units/pd2_mod_bnk/architecture/bnk/bnk_int_wall_2m_window_square" unload="true"/>
+		<cooked_physics path="units/pd2_mod_bnk/architecture/bnk/bnk_int_wall_2m_window_square"/>
+		<model path="units/pd2_mod_bnk/props/bnk_prop_vault_door_light/bnk_prop_vault_door_light"/>
+		<object path="units/pd2_mod_bnk/props/bnk_prop_vault_door_light/bnk_prop_vault_door_light"/>
+		<unit load="true" path="units/pd2_mod_bnk/props/bnk_prop_vault_door_light/bnk_prop_vault_door_light" unload="true"/>
+		<cooked_physics path="units/pd2_mod_bnk/props/bnk_prop_vault_door_light/bnk_prop_vault_door_light"/>
+		<model path="units/pd2_mod_bnk/architecture/bnk/bnk_int_wall_2m_a_backless"/>
+		<object path="units/pd2_mod_bnk/architecture/bnk/bnk_int_wall_2m_a_backless"/>
+		<unit load="true" path="units/pd2_mod_bnk/architecture/bnk/bnk_int_wall_2m_a_backless" unload="true"/>
+		<cooked_physics path="units/pd2_mod_bnk/architecture/bnk/bnk_int_wall_2m_a_backless"/>
+		<model path="units/pd2_mod_bnk/architecture/bnk/bnk_int_wall_2m_b_backless"/>
+		<object path="units/pd2_mod_bnk/architecture/bnk/bnk_int_wall_2m_b_backless"/>
+		<unit load="true" path="units/pd2_mod_bnk/architecture/bnk/bnk_int_wall_2m_b_backless" unload="true"/>
+		<cooked_physics path="units/pd2_mod_bnk/architecture/bnk/bnk_int_wall_2m_b_backless"/>
+		<sequence_manager path="units/pd2_mod_bnk/props/bnk_prop_vault_door_light/bnk_prop_vault_door_light"/>
+	</add>
+	<add>
+		<material_config path="units/pd2_mod_butt/clock/clock"/>
+		<model path="units/pd2_mod_butt/clock/clock"/>
+		<object path="units/pd2_mod_butt/clock/clock"/>
+		<unit path="units/pd2_mod_butt/clock/clock"/>
+	</add>
+	<add>
+		<model path="units/pd2_mod_floor/architecture/cus_int_floor/cus_int_floor_1x1m_a_marble"/>
+		<object path="units/pd2_mod_floor/architecture/cus_int_floor/cus_int_floor_1x1m_a_marble"/>
+		<unit load="true" path="units/pd2_mod_floor/architecture/cus_int_floor/cus_int_floor_1x1m_a_marble" unload="true"/>
+		<cooked_physics path="units/pd2_mod_floor/architecture/cus_int_floor/cus_int_floor_1x1m_a_marble"/>
+		<model path="units/pd2_mod_floor/architecture/cus_int_floor/cus_int_floor_2x2m_a_marble"/>
+		<object path="units/pd2_mod_floor/architecture/cus_int_floor/cus_int_floor_2x2m_a_marble"/>
+		<unit load="true" path="units/pd2_mod_floor/architecture/cus_int_floor/cus_int_floor_2x2m_a_marble" unload="true"/>
+		<cooked_physics path="units/pd2_mod_floor/architecture/cus_int_floor/cus_int_floor_2x2m_a_marble"/>
+		<model path="units/pd2_mod_floor/architecture/cus_int_floor/cus_int_floor_4x4m_a_marble"/>
+		<object path="units/pd2_mod_floor/architecture/cus_int_floor/cus_int_floor_4x4m_a_marble"/>
+		<unit load="true" path="units/pd2_mod_floor/architecture/cus_int_floor/cus_int_floor_4x4m_a_marble" unload="true"/>
+		<cooked_physics path="units/pd2_mod_floor/architecture/cus_int_floor/cus_int_floor_4x4m_a_marble"/>
+		<model path="units/pd2_mod_floor/architecture/cus_int_floor/cus_int_floor_1x1m_a_parquet"/>
+		<object path="units/pd2_mod_floor/architecture/cus_int_floor/cus_int_floor_1x1m_a_parquet"/>
+		<unit load="true" path="units/pd2_mod_floor/architecture/cus_int_floor/cus_int_floor_1x1m_a_parquet" unload="true"/>
+		<cooked_physics path="units/pd2_mod_floor/architecture/cus_int_floor/cus_int_floor_1x1m_a_parquet"/>
+		<model path="units/pd2_mod_floor/architecture/cus_int_floor/cus_int_floor_2x2m_a_parquet"/>
+		<object path="units/pd2_mod_floor/architecture/cus_int_floor/cus_int_floor_2x2m_a_parquet"/>
+		<unit load="true" path="units/pd2_mod_floor/architecture/cus_int_floor/cus_int_floor_2x2m_a_parquet" unload="true"/>
+		<cooked_physics path="units/pd2_mod_floor/architecture/cus_int_floor/cus_int_floor_2x2m_a_parquet"/>
+		<model path="units/pd2_mod_floor/architecture/cus_int_floor/cus_int_floor_4x4m_a_parquet"/>
+		<object path="units/pd2_mod_floor/architecture/cus_int_floor/cus_int_floor_4x4m_a_parquet"/>
+		<unit load="true" path="units/pd2_mod_floor/architecture/cus_int_floor/cus_int_floor_4x4m_a_parquet" unload="true"/>
+		<cooked_physics path="units/pd2_mod_floor/architecture/cus_int_floor/cus_int_floor_4x4m_a_parquet"/>
+		<material_config path="units/pd2_mod_floor/architecture/cus_int_floor/cus_int_floor"/>
+		<material_config path="units/pd2_mod_floor/architecture/cus_int_floor/cus_int_floor_b"/>
+		<material_config path="units/pd2_mod_floor/architecture/cus_int_floor/cus_int_floor_c"/>
+		<material_config path="units/pd2_mod_floor/architecture/cus_int_floor/cus_int_floor_d"/>
+		<material_config path="units/pd2_mod_floor/architecture/cus_int_floor/cus_int_floor_e"/>
+		<texture path="units/pd2_mod_floor/architecture/cus_int_floor/cus_mod_floor_a_df" unload="true"/>
+		<texture path="units/pd2_mod_floor/architecture/cus_int_floor/cus_mod_floor_a_nm" unload="true"/>
+		<texture path="units/pd2_mod_floor/architecture/cus_int_floor/cus_mod_floor_b_df" unload="true"/>
+		<texture path="units/pd2_mod_floor/architecture/cus_int_floor/cus_mod_floor_b_nm" unload="true"/>
+		<texture path="units/pd2_mod_floor/architecture/cus_int_floor/cus_mod_floor_c_df" unload="true"/>
+		<texture path="units/pd2_mod_floor/architecture/cus_int_floor/cus_mod_floor_c_nm" unload="true"/>
+		<texture path="units/pd2_mod_floor/architecture/cus_int_floor/cus_mod_floor_d_df" unload="true"/>
+		<texture path="units/pd2_mod_floor/architecture/cus_int_floor/cus_mod_floor_d_nm" unload="true"/>
+		<texture path="units/pd2_mod_floor/architecture/cus_int_floor/cus_mod_floor_e_df" unload="true"/>
+		<texture path="units/pd2_mod_floor/architecture/cus_int_floor/cus_mod_floor_e_nm" unload="true"/>
+	</add>
+</table>

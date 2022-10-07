@@ -1,0 +1,16 @@
+<dynamic_object>
+    <diesel materials="units/pd2_mod_ton/props/ton_prop_transport_exhibit/ton_prop_transport_exhibit" orientation_object="rp_prop_transport_exhibit" />
+    <bodies>
+		<body name="editor" enabled="true" template="editor">
+			<object name="rp_prop_transport_exhibit" />
+			<object name="c_box" collision_type="box" padding="-2.5" />
+		</body>
+    </bodies>
+    <graphics>
+        <graphic_group name="grp_truck" enabled="true" culling_object="co_cull">	
+            <object name="g_glass" enabled="true" />
+            <object name="g_decals" enabled="true"/>
+            <object name="g_truck" 	enabled="true" />
+        </graphic_group>
+    </graphics>
+</dynamic_object>

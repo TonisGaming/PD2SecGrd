@@ -1,0 +1,197 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_transit/vehicles/truck_gensec_transport_mk2/truck_gensec_transport_mk2" orientation_object="rp_gensec_truck" />
+	<sequence_manager file="units/pd2_mod_transit/vehicles/truck_gensec_transport_mk2/truck_gensec_transport_mk2" />
+	<animations>
+		<animation_group name="back_doors">
+			<object enabled="true" name="anim_back_door_left"/>
+			<object enabled="true" name="anim_back_door_right"/>
+		</animation_group>
+		<animation_group name="middle_door_left">
+			<object enabled="true" name="anim_middle_door_left"/>
+		</animation_group>
+		<animation_group name="middle_door_right">
+			<object enabled="true" name="anim_middle_door_right"/>
+		</animation_group>
+		<animation_group name="front_door">
+			<object enabled="true" name="anim_front_door"/>
+		</animation_group>
+		<animation_group name="front_tires">
+			<object enabled="true" name="anim_tire_left"/>
+			<object enabled="true" name="anim_tire_right"/>
+		</animation_group>
+		<animation_group name="thermite_fuze">
+			<object enabled="true" name="effect_fuze_left"/>
+			<object enabled="true" name="effect_fuze_right"/>
+		</animation_group>
+	</animations>
+	<bodies>
+		<body name="body_static" enabled="true" template="static">
+			<object name="c_box_door_right" collision_type="box" padding="-2.5" />
+			<object name="c_box_truck_01" collision_type="box" padding="-2.5" />
+			<object name="c_box_truck_02" collision_type="box" padding="-2.5" />
+			<object name="c_box_truck_03" collision_type="box" padding="-2.5" />
+			<object name="c_box_truck_04" collision_type="box" padding="-2.5" />
+			<object name="c_box_truck_05" collision_type="box" padding="-2.5" />
+			<object name="c_box_truck_06" collision_type="box" padding="-2.5" />
+			<object name="c_box_truck_07" collision_type="box" padding="-2.5" />
+			<object name="c_box_truck_08" collision_type="box" padding="-2.5" />
+			<object name="c_box_truck_09" collision_type="box" padding="-2.5" />
+			<object name="c_box_truck_22" collision_type="box" padding="-2.5" />
+			<object name="c_box_truck_23" collision_type="box" padding="-2.5" />
+			<object name="c_convex_truck_04" collision_type="convex" padding="-2.5" />
+			<object name="c_convex_door_right" collision_type="mesh_mopp" />
+			<object name="c_convex_truck_02" collision_type="convex" padding="-2.5" />
+			<object name="c_shelf" collision_type="mesh_mopp" />
+		</body>
+		<body name="body_fixed" enabled="true" template="static">
+			<object name="c_convex_truck_01" collision_type="convex" padding="-2.5" />
+			<object name="c_truck" collision_type="mesh_mopp" />
+		</body>
+		<body name="body_crashed" enabled="false" template="static">
+			<object name="c_convex_truck_01_dmg" collision_type="convex" padding="-2.5" />
+			<object name="c_truck_dmg" collision_type="mesh_mopp" />
+		</body>
+		<body name="body_back_door_left" enabled="true" template="animated">
+			<object name="c_back_door_left" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_back_door_left_breach" enabled="false" template="animated">
+			<object name="c_back_door_left_breach" collision_type="mesh_mopp" />
+		</body>
+		<body name="body_back_door_right" enabled="true" template="animated">
+			<object name="c_back_door_right" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_back_door_right_breach" enabled="false" template="animated">
+			<object name="c_back_door_right_breach" collision_type="mesh_mopp" />
+		</body>
+		<body name="body_middle_door_left" enabled="true" template="animated">
+			<object name="c_middle_door_left" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_middle_door_right" enabled="true" template="animated">
+			<object name="c_middle_door_right" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_front_door" enabled="true" template="animated">
+			<object name="c_box_door_left" collision_type="box" padding="-2.5" />
+			<object name="c_convex_door_left" collision_type="mesh_mopp"/>
+			<object name="c_box_door_left" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_tire_left" enabled="true" template="animated">
+			<object name="c_tire_left" collision_type="mesh_mopp" />
+		</body>
+		<body name="body_tire_right" enabled="true" template="animated">
+			<object name="c_tire_right" collision_type="mesh_mopp" />
+		</body>
+		<body name="body_blocker_mover" enabled="true" template="mover_blocker">
+    		<object name="c_box_mover_blocker" collision_type="box" padding="-2.5" />
+    	</body>
+		<body name="bag_blocker" enabled="true" template="fence" collision_class="bag_blocker">
+			<object name="c_box_bag_blocker" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_windshield" enabled="true" template="static">
+			<object name="dm_glass_front" collision_type="box" padding="-2.5"/>
+		</body>
+	</bodies>
+	<decal_surfaces>
+		<decal_mesh name="dm_back_door_left_sheet_metal" enabled="true" material="sheet_metal" />
+		<decal_mesh name="dm_glass_back_door_left" enabled="true" material="glass_unbreakable" />
+		<decal_mesh name="dm_back_door_right_sheet_metal" enabled="true" material="sheet_metal" />
+		<decal_mesh name="dm_glass_back_door_right" enabled="true" material="glass_unbreakable" />
+
+		<decal_mesh name="dm_glass_middle_door_left" enabled="true" material="glass_unbreakable" />
+		<decal_mesh name="dm_middle_door_left_sheet_metal" enabled="true" material="sheet_metal" />
+		<decal_mesh name="dm_glass_middle_door_right" enabled="true" material="glass_unbreakable" />
+		<decal_mesh name="dm_middle_door_right_sheet_metal" enabled="true" material="sheet_metal" />
+		<decal_mesh name="dm_back_door_left_sheet_metal_breach" enabled="false" material="sheet_metal" />
+		<decal_mesh name="dm_back_door_right_sheet_metal_breach" enabled="false" material="sheet_metal" />
+
+		<decal_mesh enabled="true" name="dm_metal_left" material="metal" />
+		<decal_mesh enabled="true" name="dm_rubber_left" material="rubber" />
+		<decal_mesh enabled="true" name="dm_metal_right" material="metal" />
+		<decal_mesh enabled="true" name="dm_rubber_right" material="rubber" />
+
+		<decal_mesh name="dm_front_door_left_sheet_metal" enabled="true" material="sheet_metal" />
+		<decal_mesh name="dm_front_door_right_sheet_metal" enabled="true" material="sheet_metal" />
+		<decal_mesh name="dm_glass_front" enabled="true" material="glass_unbreakable" />
+		<decal_mesh name="dm_glass_front_door_left" enabled="true" material="glass_unbreakable" />
+		<decal_mesh name="dm_glass_front_door_right" enabled="true" material="glass_unbreakable" />
+		<decal_mesh enabled="true" name="dm_metal" material="metal" />
+		<decal_mesh enabled="true" name="dm_rubber" material="rubber" />
+
+		<decal_mesh name="dm_sheet_metal" enabled="true" material="sheet_metal" />
+		<decal_mesh name="dm_sheet_metal_dmg" enabled="false" material="sheet_metal" />
+	</decal_surfaces>
+	<graphics>
+		<graphic_group name="grp_truck" enabled="true">
+			<object name="g_back_door_left"	enabled="true" shadow_caster="false"/>
+			<object name="g_back_door_left_breach"	enabled="false" shadow_caster="false"/>
+			<object name="g_decal_burn_left"	enabled="false" shadow_caster="false"/>
+			<object name="g_glass_back_door_left"	enabled="true" shadow_caster="false"/>
+
+			<object name="g_back_door_right"	enabled="true" shadow_caster="false"/>
+			<object name="g_back_door_right_breach"	enabled="false" shadow_caster="false"/>
+			<object name="g_decal_burn_right"	enabled="false" shadow_caster="false"/>
+			<object name="g_decals_right_back_door"	enabled="true" shadow_caster="false"/>
+			<object name="g_glass_back_door_right"	enabled="true" shadow_caster="false"/>
+
+			<object name="g_glass_middle_door_left"	enabled="true" shadow_caster="false"/>
+			<object name="g_middle_door_left"	enabled="true" shadow_caster="false"/>
+			<object name="g_middle_door_left_hole"	enabled="false" shadow_caster="false"/>
+
+			<object name="g_glass_middle_door_right"	enabled="true" shadow_caster="false"/>
+			<object name="g_middle_door_right"	enabled="true" shadow_caster="false"/>
+			<object name="g_middle_door_right_hole"	enabled="false" shadow_caster="false"/>
+
+			<object name="g_tire_left"	enabled="true" shadow_caster="false"/>
+			<object name="g_tire_right"	enabled="true" shadow_caster="false"/>
+
+			<object name="g_decals_static"	enabled="true" shadow_caster="false"/>
+
+			<object name="g_glass_front_door_right"	enabled="true" shadow_caster="false"/>
+			<object name="g_glass_front_door_right_dmg"	enabled="false" shadow_caster="false"/>
+			<object name="g_interior"	enabled="true" shadow_caster="false"/>
+			<object name="g_fireextinguisher"	enabled="true" shadow_caster="false"/>
+			<object name="g_interior_vtxc"	enabled="true" shadow_caster="false"/>
+			<object name="g_truck_dmg"	enabled="false" shadow_caster="false"/>
+
+			<object name="s_back_door_left"	enabled="true" shadow_caster="true"/>
+			<object name="s_back_door_right"	enabled="true" shadow_caster="true"/>
+			<object name="s_tire_left"	enabled="true" shadow_caster="true"/>
+			<object name="s_tire_right"	enabled="true" shadow_caster="true"/>
+			<object name="s_shadow"	enabled="true" shadow_caster="true"/>
+		</graphic_group>
+
+		<object name="g_truck"	enabled="true" shadow_caster="false"/>
+		<object name="g_truck_dmg"	enabled="false" shadow_caster="false"/>
+
+		<graphic_group name="grp_thermite" enabled="true">
+			<object name="g_thermite_fuze"	enabled="false" shadow_caster="false"/>
+			<object name="g_thermite_bottom_left"	enabled="false" shadow_caster="false"/>
+			<object name="g_thermite_bottom_right"	enabled="false" shadow_caster="false"/>
+			<object name="g_thermite_top_left"	enabled="false" shadow_caster="false"/>
+			<object name="g_thermite_top_right"	enabled="false" shadow_caster="false"/>
+			<object name="g_thermite_middle"	enabled="false" shadow_caster="false"/>
+		</graphic_group>
+		<object name="g_glass_front"	enabled="true" shadow_caster="false"/>
+		<object name="g_glass_front_broken"	enabled="false" shadow_caster="false"/>
+		<object name="g_glass_front_dmg"	enabled="false" shadow_caster="false"/>
+
+		<object name="g_driver"	enabled="true" shadow_caster="false"/>
+		<graphic_group name="grp_front_door" enabled="true">
+			<object name="g_front_door" enabled="true" shadow_caster="true"/>
+			<object name="g_glass_front_door_left"	enabled="true" shadow_caster="false"/>
+			<object name="g_glass_front_door_left_dmg"	enabled="false" shadow_caster="false"/>
+		</graphic_group>
+	</graphics>
+	<lights>
+		<light multiplier="searchlight" editable="true" projection="false" falloff="4" far_range="150" name="lo_omni_1" enabled="false" type="omni|specular" />
+		<light multiplier="searchlight" editable="true" projection="false" falloff="4" far_range="150" name="lo_omni_2" enabled="false" type="omni|specular" />
+	</lights>
+	<effects>
+		<effect_spawner name="fuze_right" enabled="false" object="effect_fuze_right" effect="effects/payday2/economy/particles/equipment/eco_drill_sparks"/>
+		<effect_spawner name="fuze_left" enabled="false" object="effect_fuze_left" effect="effects/payday2/economy/particles/equipment/eco_drill_sparks"/>
+		<effect_spawner name="thermite_top_r" enabled="false" object="g_thermite_top_right" effect="effects/payday2/environment/small_thermal_burner"/>
+		<effect_spawner name="thermite_bot_r" enabled="false" object="g_thermite_bottom_right" effect="effects/payday2/environment/small_thermal_burner"/>
+		<effect_spawner name="thermite_top_l" enabled="false" object="g_thermite_top_left" effect="effects/payday2/environment/small_thermal_burner" />
+		<effect_spawner name="thermite_bot_l" enabled="false" object="g_thermite_bottom_left" effect="effects/payday2/environment/small_thermal_burner" />
+		<effect_spawner name="thermite_mid" enabled="false" object="g_thermite_middle" effect="effects/payday2/environment/small_thermal_burner" />
+	</effects>
+</dynamic_object>

@@ -1,0 +1,6 @@
+<unit type="ton" slot="1">
+	<object file="units/pd2_mod_ton/props/ton_prop_cashblast_exhibit/ton_prop_cashblast_exhibit" />
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+	</extensions>
+</unit>

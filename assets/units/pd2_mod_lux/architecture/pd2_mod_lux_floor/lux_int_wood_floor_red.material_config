@@ -1,0 +1,8 @@
+<materials version="3" group="lux_floor_wood_group">
+    <material name="lambert1" render_template="generic" version="2"/>
+    <material name="mat_gam_flr_03" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/pd2_dlc_chca/architecture/int/int_textures/chca_int_wooden_floor_df"/>
+        <bump_normal_texture file="units/pd2_dlc_chca/architecture/int/int_textures/chca_int_wooden_floor_nm"/>
+        <material_texture file="units/pd2_dlc_chca/architecture/int/int_textures/chca_int_wooden_floor_gsma"/>
+    </material>
+</materials>

@@ -1,0 +1,6 @@
+<unit type="spawn" slot="18" >
+	<object file="units/pd2_mod_transit/vehicles/truck_gensec_transport_mk2/spawn_back_doors/spawn_back_doors" />
+	<extensions>
+		<extension name="unit_data" 	class="ScriptUnitData"  />
+	</extensions>
+</unit>

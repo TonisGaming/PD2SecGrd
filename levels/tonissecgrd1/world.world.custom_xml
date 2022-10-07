@@ -1,0 +1,45 @@
+<table>
+	<ai>
+		<table>
+			<ai_editor_data detection_mul="1" detection_multiplier="0.01" location_id="location_unknown" suspicion_mul="1" suspicion_multiplier="1">
+				<visibilty_exlude_filter/>
+				<visibilty_include_filter/>
+			</ai_editor_data>
+			<unit_data _prev_pos="3277.96 893.503 574.999" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="core/units/nav_surface/nav_surface" name_id="nav_surface_001" position="3277.96 893.503 802.999" rotation="0 0 0 -1" unit_id="1"/>
+		</table>
+	</ai>
+	<ai_nav_graphs file="nav_manager_data"/>
+	<ai_settings>
+		<ai_data>
+			<patrol_paths/>
+		</ai_data>
+		<ai_settings group_state="besiege"/>
+	</ai_settings>
+	<brush file="massunit">
+		<preload_units/>
+	</brush>
+	<camera_bookmarks/>
+	<environment>
+		<cubemap_gizmos/>
+		<dome_occ_shapes/>
+		<effects/>
+		<environment_areas/>
+		<environment_values color_grading="color_payday" environment="environments/pd2_chca_night/ext/pd2_chca_ext" sky_rot="36.0759"/>
+		<wind angle="0" angle_var="0" speed="6" speed_variation="1" tilt="-0" tilt_var="0"/>
+	</environment>
+	<level_settings>
+		<settings/>
+	</level_settings>
+	<portal>
+		<portals/>
+		<unit_groups/>
+	</portal>
+	<sounds file="world_sounds"/>
+	<world_camera file="world_cameras"/>
+	<world_data continents_file="continents" max_id="1">
+		<markers/>
+		<values>
+			<workviews/>
+		</values>
+	</world_data>
+</table>

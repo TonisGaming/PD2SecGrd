@@ -1,0 +1,25 @@
+<table>
+	<unit>
+		<sequence name="'-enable'" editable_state="true" triggable="false">
+			<interaction enabled="true"/>
+			<graphic_group name="'contour_breaching_charge'" visibility="true"/>
+		</sequence>
+		<sequence name="'-disable'" editable_state="true" triggable="false">
+			<interaction enabled="false"/>
+			<object name="'g_breaching_charge'" enabled="false"/>
+			<graphic_group name="'contour_breaching_charge'" visibility="false"/>
+		</sequence>
+		<sequence name="'interact'" triggable="true">
+			<run_sequence name="'charge_placed'"/>
+		</sequence>
+		<sequence name="'charge_placed'">
+			<object name="'g_breaching_charge'" enabled="true"/>
+			<graphic_group name="'contour_breaching_charge'" visibility="false"/>
+			<interaction enabled="false"/>
+			<run_sequence start_time="10" name="'go_boom'"/>
+		</sequence>
+		<sequence name="'go_boom'">
+			<object name="'g_breaching_charge'" enabled="false"/>
+		</sequence>
+	</unit>
+</table>

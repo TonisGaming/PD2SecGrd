@@ -1,0 +1,434 @@
+<table>
+	<unit>
+		<variables>
+			<var_windshield value="0"/>
+			<var_driver value="1"/>
+			<var_crash value="0"/>
+			<var_door_back value="0"/>
+			<var_door_middle_left value="0"/>
+			<var_door_middle_right value="0"/>
+			<var_spawn_1 value="0"/>
+			<var_spawn_2 value="0"/>
+			<var_spawn_3 value="0"/>
+			<var_spawn_4 value="0"/>
+			<var_spawn_5 value="0"/>
+			<var_spawn_6 value="0"/>
+			<var_spawn_7 value="0"/>
+			<var_spawn_8 value="0"/>
+			<var_spawn_9 value="0"/>
+		</variables>
+
+		<filter name="'filter_1_empty'">
+			<check value="vars.var_spawn_1 == 0"/>
+		</filter>
+		<filter name="'filter_2_empty'">
+			<check value="vars.var_spawn_2 == 0"/>
+		</filter>
+		<filter name="'filter_3_empty'">
+			<check value="vars.var_spawn_3 == 0"/>
+		</filter>
+		<filter name="'filter_4_empty'">
+			<check value="vars.var_spawn_4 == 0"/>
+		</filter>
+		<filter name="'filter_5_empty'">
+			<check value="vars.var_spawn_5 == 0"/>
+		</filter>
+		<filter name="'filter_6_empty'">
+			<check value="vars.var_spawn_6 == 0"/>
+		</filter>
+		<filter name="'filter_7_empty'">
+			<check value="vars.var_spawn_7 == 0"/>
+		</filter>
+		<filter name="'filter_8_empty'">
+			<check value="vars.var_spawn_8 == 0"/>
+		</filter>
+		<filter name="'filter_9_empty'">
+			<check value="vars.var_spawn_9 == 0"/>
+		</filter>
+		<filter name="'filter_windshield_fixed'">
+			<check value="vars.var_windshield == 0"/>
+		</filter>
+		<filter name="'filter_windshield_broken'">
+			<check value="vars.var_windshield == 1"/>
+		</filter>
+		<filter name="'filter_windshield_pierced'">
+			<check value="vars.var_windshield == 2"/>
+		</filter>
+		<filter name="'filter_driver_inside'">
+			<check value="vars.var_driver == 1"/>
+		</filter>
+		<filter name="'filter_driver_outside'">
+			<check value="vars.var_driver == 0"/>
+		</filter>
+		<filter name="'filter_truck_not_crashed'">
+			<check value="vars.var_crash == 0"/>
+		</filter>
+		<filter name="'filter_truck_crashed'">
+			<check value="vars.var_crash == 1"/>
+		</filter>
+		<filter name="'filter_door_back_closed'">
+			<check value="vars.var_door_back == 0"/>
+		</filter>
+		<filter name="'filter_door_back_open'">
+			<check value="vars.var_door_back == 1"/>
+		</filter>
+		<filter name="'filter_door_middle_left_closed'">
+			<check value="vars.var_door_middle_left == 0"/>
+		</filter>
+		<filter name="'filter_door_middle_left_open'">
+			<check value="vars.var_door_middle_left == 1"/>
+		</filter>
+		<filter name="'filter_door_middle_right_closed'">
+			<check value="vars.var_door_middle_right == 0"/>
+		</filter>
+		<filter name="'filter_door_middle_right_open'">
+			<check value="vars.var_door_middle_right == 1"/>
+		</filter>
+
+		<sequence editable_state="true" name="'spawn_loot_money_1'" once="true" triggable="false">
+			<spawn_unit name="'units/pd2_dlc1/vehicles/str_vehicle_truck_gensec_transport/spawn_deposit/spawn_money'" position="object_pos('sp_spawn_1')" rotation="object_rot('sp_spawn_1')"/>
+			<set_variables var_spawn_1="1"/>
+		</sequence>
+		<sequence editable_state="true" name="'spawn_loot_money_2'" once="true" triggable="false">
+			<spawn_unit name="'units/pd2_dlc1/vehicles/str_vehicle_truck_gensec_transport/spawn_deposit/spawn_money'" position="object_pos('sp_spawn_2')" rotation="object_rot('sp_spawn_2')"/>
+			<set_variables var_spawn_2="1"/>
+		</sequence>
+		<sequence editable_state="true" name="'spawn_loot_money_3'" once="true" triggable="false">
+			<spawn_unit name="'units/pd2_dlc1/vehicles/str_vehicle_truck_gensec_transport/spawn_deposit/spawn_money'" position="object_pos('sp_spawn_3')" rotation="object_rot('sp_spawn_3')"/>
+			<set_variables var_spawn_3="1"/>
+		</sequence>
+		<sequence editable_state="true" name="'spawn_loot_money_4'" once="true" triggable="false">
+			<spawn_unit name="'units/pd2_dlc1/vehicles/str_vehicle_truck_gensec_transport/spawn_deposit/spawn_money'" position="object_pos('sp_spawn_4')" rotation="object_rot('sp_spawn_4')"/>
+			<set_variables var_spawn_4="1"/>
+		</sequence>
+		<sequence editable_state="true" name="'spawn_loot_money_5'" once="true" triggable="false">
+			<spawn_unit name="'units/pd2_dlc1/vehicles/str_vehicle_truck_gensec_transport/spawn_deposit/spawn_money'" position="object_pos('sp_spawn_5')" rotation="object_rot('sp_spawn_5')"/>
+			<set_variables var_spawn_5="1"/>
+		</sequence>
+		<sequence editable_state="true" name="'spawn_loot_money_6'" once="true" triggable="false">
+			<spawn_unit name="'units/pd2_dlc1/vehicles/str_vehicle_truck_gensec_transport/spawn_deposit/spawn_money'" position="object_pos('sp_spawn_6')" rotation="object_rot('sp_spawn_6')"/>
+			<set_variables var_spawn_6="1"/>
+		</sequence>
+		<sequence editable_state="true" name="'spawn_loot_money_7'" once="true" triggable="false">
+			<spawn_unit name="'units/pd2_dlc1/vehicles/str_vehicle_truck_gensec_transport/spawn_deposit/spawn_money'" position="object_pos('sp_spawn_7')" rotation="object_rot('sp_spawn_7')"/>
+			<set_variables var_spawn_7="1"/>
+		</sequence>
+		<sequence editable_state="true" name="'spawn_loot_money_8'" once="true" triggable="false">
+			<spawn_unit name="'units/pd2_dlc1/vehicles/str_vehicle_truck_gensec_transport/spawn_deposit/spawn_money'" position="object_pos('sp_spawn_8')" rotation="object_rot('sp_spawn_8')"/>
+			<set_variables var_spawn_8="1"/>
+		</sequence>
+		<sequence editable_state="true" name="'spawn_loot_money_9'" once="true" triggable="false">
+			<spawn_unit name="'units/pd2_dlc1/vehicles/str_vehicle_truck_gensec_transport/spawn_deposit/spawn_money'" position="object_pos('sp_spawn_9')" rotation="object_rot('sp_spawn_9')"/>
+			<set_variables var_spawn_9="1"/>
+		</sequence>
+		
+		<sequence editable_state="true" name="'spawn_loot_gold_1'" once="true" triggable="false">
+			<spawn_unit name="'units/pd2_dlc1/vehicles/str_vehicle_truck_gensec_transport/spawn_deposit/spawn_gold'" position="object_pos('sp_spawn_1')" rotation="object_rot('sp_spawn_1')"/>
+			<set_variables var_spawn_1="1"/>
+		</sequence>
+		<sequence editable_state="true" name="'spawn_loot_gold_2'" once="true" triggable="false">
+			<spawn_unit name="'units/pd2_dlc1/vehicles/str_vehicle_truck_gensec_transport/spawn_deposit/spawn_gold'" position="object_pos('sp_spawn_2')" rotation="object_rot('sp_spawn_2')"/>
+			<set_variables var_spawn_2="1"/>
+		</sequence>
+		<sequence editable_state="true" name="'spawn_loot_gold_3'" once="true" triggable="false">
+			<spawn_unit name="'units/pd2_dlc1/vehicles/str_vehicle_truck_gensec_transport/spawn_deposit/spawn_gold'" position="object_pos('sp_spawn_3')" rotation="object_rot('sp_spawn_3')"/>
+			<set_variables var_spawn_3="1"/>
+		</sequence>
+		<sequence editable_state="true" name="'spawn_loot_gold_4'" once="true" triggable="false">
+			<spawn_unit name="'units/pd2_dlc1/vehicles/str_vehicle_truck_gensec_transport/spawn_deposit/spawn_gold'" position="object_pos('sp_spawn_4')" rotation="object_rot('sp_spawn_4')"/>
+			<set_variables var_spawn_4="1"/>
+		</sequence>
+		<sequence editable_state="true" name="'spawn_loot_gold_5'" once="true" triggable="false">
+			<spawn_unit name="'units/pd2_dlc1/vehicles/str_vehicle_truck_gensec_transport/spawn_deposit/spawn_gold'" position="object_pos('sp_spawn_5')" rotation="object_rot('sp_spawn_5')"/>
+			<set_variables var_spawn_5="1"/>
+		</sequence>
+		<sequence editable_state="true" name="'spawn_loot_gold_6'" once="true" triggable="false">
+			<spawn_unit name="'units/pd2_dlc1/vehicles/str_vehicle_truck_gensec_transport/spawn_deposit/spawn_gold'" position="object_pos('sp_spawn_6')" rotation="object_rot('sp_spawn_6')"/>
+			<set_variables var_spawn_6="1"/>
+		</sequence>
+		<sequence editable_state="true" name="'spawn_loot_gold_7'" once="true" triggable="false">
+			<spawn_unit name="'units/pd2_dlc1/vehicles/str_vehicle_truck_gensec_transport/spawn_deposit/spawn_gold'" position="object_pos('sp_spawn_7')" rotation="object_rot('sp_spawn_7')"/>
+			<set_variables var_spawn_7="1"/>
+		</sequence>
+		<sequence editable_state="true" name="'spawn_loot_gold_8'" once="true" triggable="false">
+			<spawn_unit name="'units/pd2_dlc1/vehicles/str_vehicle_truck_gensec_transport/spawn_deposit/spawn_gold'" position="object_pos('sp_spawn_8')" rotation="object_rot('sp_spawn_8')"/>
+			<set_variables var_spawn_8="1"/>
+		</sequence>
+		<sequence editable_state="true" name="'spawn_loot_gold_9'" once="true" triggable="false">
+			<spawn_unit name="'units/pd2_dlc1/vehicles/str_vehicle_truck_gensec_transport/spawn_deposit/spawn_gold'" position="object_pos('sp_spawn_9')" rotation="object_rot('sp_spawn_9')"/>
+			<set_variables var_spawn_9="1"/>
+		</sequence>
+		<sequence editable_state="true" name="'fill_empty_spawns'" once="true" triggable="false">
+			<spawn_unit filter="'filter_1_empty'" name="'units/pd2_dlc1/vehicles/str_vehicle_truck_gensec_transport/str_vehicle_truck_gensec_transport_deposit_box'" position="object_pos('sp_spawn_1')" rotation="object_rot('sp_spawn_1')"/>
+			<spawn_unit filter="'filter_2_empty'" name="'units/pd2_dlc1/vehicles/str_vehicle_truck_gensec_transport/str_vehicle_truck_gensec_transport_deposit_box'" position="object_pos('sp_spawn_2')" rotation="object_rot('sp_spawn_2')"/>
+			<spawn_unit filter="'filter_3_empty'" name="'units/pd2_dlc1/vehicles/str_vehicle_truck_gensec_transport/str_vehicle_truck_gensec_transport_deposit_box'" position="object_pos('sp_spawn_3')" rotation="object_rot('sp_spawn_3')"/>
+			<spawn_unit filter="'filter_4_empty'" name="'units/pd2_dlc1/vehicles/str_vehicle_truck_gensec_transport/str_vehicle_truck_gensec_transport_deposit_box'" position="object_pos('sp_spawn_4')" rotation="object_rot('sp_spawn_4')"/>
+			<spawn_unit filter="'filter_5_empty'" name="'units/pd2_dlc1/vehicles/str_vehicle_truck_gensec_transport/str_vehicle_truck_gensec_transport_deposit_box'" position="object_pos('sp_spawn_5')" rotation="object_rot('sp_spawn_5')"/>
+			<spawn_unit filter="'filter_6_empty'" name="'units/pd2_dlc1/vehicles/str_vehicle_truck_gensec_transport/str_vehicle_truck_gensec_transport_deposit_box'" position="object_pos('sp_spawn_6')" rotation="object_rot('sp_spawn_6')"/>
+			<spawn_unit filter="'filter_7_empty'" name="'units/pd2_dlc1/vehicles/str_vehicle_truck_gensec_transport/str_vehicle_truck_gensec_transport_deposit_box'" position="object_pos('sp_spawn_7')" rotation="object_rot('sp_spawn_7')"/>
+			<spawn_unit filter="'filter_8_empty'" name="'units/pd2_dlc1/vehicles/str_vehicle_truck_gensec_transport/str_vehicle_truck_gensec_transport_deposit_box'" position="object_pos('sp_spawn_8')" rotation="object_rot('sp_spawn_8')"/>
+			<spawn_unit filter="'filter_9_empty'" name="'units/pd2_dlc1/vehicles/str_vehicle_truck_gensec_transport/str_vehicle_truck_gensec_transport_deposit_box'" position="object_pos('sp_spawn_9')" rotation="object_rot('sp_spawn_9')"/>
+		</sequence>
+
+		<sequence editable_state="true" name="'open_middle_door_left'" triggable="false">
+			<animation_group enabled="true" end_time="16/30" name="'middle_door_left'" speed="0.5" time="0/30"/>
+			<sound action="'play'" event="'money_transport_side_door_open'" object="'anim_middle_door_left'"/>
+			<set_variables var_door_middle_left="1"/>
+			<run_sequence name="'done_opened'"/>
+		</sequence>
+		<sequence editable_state="true" name="'open_middle_door_right'" triggable="false">
+			<animation_group enabled="true" end_time="16/30" name="'middle_door_right'" speed="0.5" time="0/30"/>
+			<sound action="'play'" event="'money_transport_side_door_open'" object="'anim_middle_door_right'"/>
+			<set_variables var_door_middle_right="1"/>
+			<run_sequence name="'done_opened'"/>
+		</sequence>
+		<sequence editable_state="true" name="'open_back_doors'" triggable="false">
+			<light enabled="true" name="'lo_omni_1'"/>
+			<light enabled="true" name="'lo_omni_2'"/>
+			<animation_group enabled="true" end_time="16/30" name="'back_doors'" speed="0.5" time="0/30"/>
+			<sound action="'play'" event="'money_transport_rear_door_open'" object="'anim_back_door_right'"/>
+			<sound action="'play'" event="'money_transport_rear_door_open'" object="'anim_back_door_left'"/>
+			<set_variables var_door_back="1"/>
+			<run_sequence name="'done_opened'"/>
+		</sequence>
+		<sequence editable_state="true" name="'open_front_door'" triggable="false">
+			<animation_group enabled="true" end_time="16/30" name="'front_door'" speed="0.5" time="0/30"/>
+			<sound action="'play'" event="'money_transport_side_door_open'" object="'anim_middle_door_left'"/>
+		</sequence>
+		<sequence editable_state="true" name="'close_all_doors'" triggable="false">
+			<animation_group enabled="true" end_time="0/30" name="'back_doors'" speed="-1" time="16/30"/>
+			<animation_group enabled="true" end_time="0/30" name="'middle_door_left'" speed="-1" time="16/30"/>
+			<animation_group enabled="true" end_time="0/30" name="'middle_door_right'" speed="-1" time="16/30"/>
+			<animation_group enabled="true" end_time="0/30" name="'front_door'" speed="-1" time="16/30"/>
+			<set_variables var_door_back="0"/>
+			<set_variables var_door_middle_right="0"/>
+			<set_variables var_door_middle_middle="0"/>
+		</sequence>
+		<sequence editable_state="true" name="'tires_left'" triggable="false">
+			<animation_group enabled="true" from="24/30" to="32/30" name="'front_tires'"/>
+		</sequence>
+		<sequence editable_state="true" name="'tires_right'" triggable="false">
+			<animation_group enabled="true" from="0/30" to="16/30" name="'front_tires'"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_hide'" triggable="false">
+			<body enabled="false" name="'body_static'"/>
+			<body enabled="false" name="'body_fixed'"/>
+			<body enabled="false" name="'body_crashed'"/>
+			<body enabled="false" name="'body_back_door_left'"/>
+			<body enabled="false" name="'body_back_door_right'"/>
+			<body enabled="false" name="'body_middle_door_left'"/>
+			<body enabled="false" name="'body_middle_door_right'"/>
+			<body enabled="false" name="'body_tire_left'"/>
+			<body enabled="false" name="'body_tire_right'"/>
+			<body enabled="false" name="'body_blocker_mover'"/>
+			<body enabled="false" name="'bag_blocker'"/>
+			<body enabled="false" name="'body_front_door'"/>
+			<body enabled="false" name="'body_windshield'"/>
+			<graphic_group name="'grp_truck'" visibility="false"/>
+			<graphic_group name="'grp_thermite'" visibility="false"/>
+			<graphic_group name="'grp_front_door'" visibility="false"/>
+			<object enabled="false" name="'g_glass_front'"/>
+			<object enabled="false" name="'g_glass_front_dmg'"/>
+			<object enabled="false" name="'g_glass_front_broken'"/>
+			<object enabled="false" name="'g_driver'"/>
+			<object enabled="false" name="'g_truck'"/>
+			<object enabled="false" name="'g_truck_dm'"/>
+		</sequence>
+		<sequence editable_state="true" name="'state_show'" triggable="false">
+			<body enabled="true" name="'body_static'"/>
+			<body enabled="true" name="'body_back_door_left'"/>
+			<body enabled="true" name="'body_back_door_right'"/>
+			<body enabled="true" name="'body_middle_door_left'"/>
+			<body enabled="true" name="'body_middle_door_right'"/>
+			<body enabled="true" name="'body_tire_left'"/>
+			<body enabled="true" name="'body_tire_right'"/>
+			<body enabled="true" name="'body_blocker_mover'"/>
+			<body enabled="true" name="'bag_blocker'"/>
+			<body enabled="true" name="'body_front_door'"/>
+			<graphic_group name="'grp_truck'" visibility="true"/>
+			<graphic_group name="'grp_front_door'" visibility="true"/>
+			<graphic_group name="'grp_thermite'" visibility="true"/>
+			<object filter="'filter_windshield_fixed'" enabled="true" name="'g_glass_front'"/>
+			<object filter="'filter_windshield_broken'" enabled="true" name="'g_glass_front_dmg'"/>
+			<object filter="'filter_windshield_pierced'" enabled="true" name="'g_glass_front_broken'"/>
+			<object filter="'filter_driver_inside'" enabled="true" name="'g_driver'"/>
+			<object filter="'filter_driver_outside'" enabled="false" name="'g_driver'"/>
+			<object filter="'filter_truck_not_crashed'" enabled="true" name="'g_truck'"/>
+			<decal_mesh filter="'filter_truck_not_crashed'" enabled="true" name="'dm_sheet_metal'"/>
+			<body filter="'filter_truck_not_crashed'" enabled="true" name="'body_fixed'"/>
+			<object filter="'filter_truck_crashed'" enabled="true" name="'g_truck_dmg'"/>
+			<decal_mesh filter="'filter_truck_crashed'" enabled="true" name="'dm_sheet_metal_dmg'"/>
+			<body filter="'filter_truck_crashed'" enabled="true" name="'body_crashed'"/>
+		</sequence>
+		<sequence editable_state="true" name="'wind_shield_pierced'" triggable="false">
+			<object enabled="false" name="'g_glass_front'"/>
+			<object enabled="false" name="'g_glass_front_dmg'"/>
+			<object enabled="true" name="'g_glass_front_broken'"/>
+			<set_variables var_windshield="2"/>
+		</sequence>
+		<sequence editable_state="true" name="'wind_shield_fixed'" triggable="false">
+			<object enabled="true" name="'g_glass_front'"/>
+			<object enabled="false" name="'g_glass_front_dmg'"/>
+			<object enabled="false" name="'g_glass_front_broken'"/>
+			<set_variables var_windshield="0"/>
+		</sequence>
+		<sequence editable_state="true" name="'wind_shield_broken'" triggable="false">
+			<object enabled="false" name="'g_glass_front'"/>
+			<object enabled="true" name="'g_glass_front_dmg'"/>
+			<object enabled="false" name="'g_glass_front_broken'"/>
+			<set_variables var_windshield="1"/>
+		</sequence>
+		<sequence editable_state="true" name="'driver_inside'" triggable="false">
+			<object enabled="true" name="'g_driver'"/>
+			<set_variables var_driver="1"/>
+		</sequence>
+		<sequence editable_state="true" name="'driver_outside'" triggable="false">
+			<object enabled="false" name="'g_driver'"/>
+			<set_variables var_driver="0"/>
+		</sequence>
+		<sequence editable_state="true" name="'truck_default'" triggable="false">
+			<object enabled="true" name="'g_truck'"/>
+			<decal_mesh enabled="true" name="'dm_sheet_metal'"/>
+			<body enabled="true" name="'body_fixed'"/>
+			<object enabled="false" name="'g_truck_dmg'"/>
+			<decal_mesh enabled="false" name="'dm_sheet_metal_dmg'"/>
+			<body enabled="false" name="'body_crashed'"/>
+			<material_config name="'units/pd2_mod_transit/vehicles/truck_gensec_transport_mk2/truck_gensec_transport_mk2'"/>
+			<set_variables var_crash="0"/>
+		</sequence>
+		<sequence editable_state="true" name="'truck_crashed'" triggable="false">
+			<object enabled="false" name="'g_truck'"/>
+			<decal_mesh enabled="false" name="'dm_sheet_metal'"/>
+			<body enabled="false" name="'body_fixed'"/>
+			<object enabled="true" name="'g_truck_dmg'"/>
+			<decal_mesh enabled="true" name="'dm_sheet_metal_dmg'"/>
+			<body enabled="true" name="'body_crashed'"/>
+			<material_config name="'units/pd2_mod_transit/vehicles/truck_gensec_transport_mk2/truck_gensec_transport_mk2_crashed'"/>
+			<set_variables var_crash="1"/>
+		</sequence>
+		<sequence editable_state="true" name="'done_opened'" triggable="true"/>
+		<sequence editable_state="false" name="'exploded_money'" once="true" triggable="false">
+			<effect name="'effects/payday2/environment/arm_money_truck_exp'" parent="object( 'a_shp_charge' )" position="v()"/>
+		</sequence>
+		<sequence editable_state="true" name="'breach_back_doors'" triggable="false">
+			<object enabled="false" name="'g_back_door_left'"/>
+			<body enabled="false" name="'body_back_door_left'"/>
+			<decal_mesh enabled="false" name="'dm_back_door_left_sheet_metal'"/>
+			<object enabled="false" name="'g_back_door_right'"/>
+			<body enabled="false" name="'body_back_door_right'"/>
+			<decal_mesh enabled="false" name="'dm_back_door_right_sheet_metal'"/>
+
+			<object enabled="true" name="'g_back_door_left_breach'"/>
+			<object enabled="true" name="'g_decal_burn_left'"/>
+			<body enabled="true" name="'body_back_door_left_breach'"/>
+			<decal_mesh enabled="true" name="'dm_back_door_left_sheet_metal_breach'"/>
+			<object enabled="true" name="'g_back_door_right_breach'"/>
+			<object enabled="true" name="'g_decal_burn_right'"/>
+			<body enabled="true" name="'body_back_door_right_breach'"/>
+			<decal_mesh enabled="true" name="'dm_back_door_left_sheet_metal_breach'"/>
+			<run_sequence name="'door_breached'"/>
+		</sequence>
+		<sequence editable_state="false" name="'door_breached'" triggable="false"/>
+		<sequence editable_state="true" name="'player_inside'" triggable="true">
+			<run_sequence filter="'filter_door_middle_left_closed'" name="'open_middle_door_left'"/>
+			<run_sequence filter="'filter_door_middle_right_closed'" name="'open_middle_door_right'"/>
+			<run_sequence filter="'filter_door_back_closed'" name="'open_back_doors'"/>
+		</sequence>
+		<sequence editable_state="true" name="'drilled_left'" triggable="false">
+			<object name="'g_middle_door_left'" enabled="false"/>
+			<object name="'g_middle_door_left_hole'" enabled="true"/>
+		</sequence>
+		<sequence editable_state="true" name="'drilled_right'" triggable="false">
+			<object name="'g_middle_door_right'" enabled="false"/>
+			<object name="'g_middle_door_right_hole'" enabled="true"/>
+		</sequence>
+		<sequence editable_state="true" name="'repair_left'" triggable="false">
+			<object name="'g_middle_door_left'" enabled="true"/>
+			<object name="'g_middle_door_left_hole'" enabled="false"/>
+		</sequence>
+		<sequence editable_state="true" name="'repair_right'" triggable="false">
+			<object name="'g_middle_door_right'" enabled="true"/>
+			<object name="'g_middle_door_right_hole'" enabled="false"/>
+		</sequence>
+		<sequence editable_state="true" name="'show_thermite_bot_r'" triggable="false">
+			<object name="'g_thermite_bottom_right'" enabled="true"/>
+		</sequence>
+		<sequence editable_state="true" name="'show_thermite_bot_l'" triggable="false">
+			<object name="'g_thermite_bottom_left'" enabled="true"/>
+		</sequence>
+		<sequence editable_state="true" name="'show_thermite_top_r'" triggable="false">
+			<object name="'g_thermite_top_right'" enabled="true"/>
+		</sequence>
+		<sequence editable_state="true" name="'show_thermite_top_l'" triggable="false">
+			<object name="'g_thermite_top_left'" enabled="true"/>
+		</sequence>
+		<sequence editable_state="true" name="'show_thermite_middle'" triggable="false">
+			<object name="'g_thermite_middle'" enabled="true"/>
+		</sequence>
+		<sequence editable_state="true" name="'hide_thermite'" triggable="false">
+			<object name="'g_thermite_bottom_right'" enabled="false"/>
+			<object name="'g_thermite_bottom_left'" enabled="false"/>
+			<object name="'g_thermite_top_right'" enabled="false"/>
+			<object name="'g_thermite_top_left'" enabled="false"/>
+			<object name="'g_thermite_middle'" enabled="false"/>
+			<object name="'g_thermite_fuze'" enabled="false"/>
+		</sequence>
+		<sequence editable_state="true" name="'ignite_thermite'" triggable="true">
+			<object name="'g_thermite_fuze'" enabled="true"/>
+			<effect_spawner enabled="true" name="'fuze_left'"/>
+			<effect_spawner enabled="true" name="'fuze_right'"/>
+			<animation_group name="'thermite_fuze'" enabled="true" from="0/30" to="50/30" speed="0.05"/>
+			<effect_spawner enabled="true" name="'fuze_left'"/>
+			<effect_spawner enabled="true" name="'fuze_right'"/>
+			<effect_spawner enabled="true" name="'thermite_mid'" />
+			<sound action="'play'" event="'thermite_gate_burn'" object="'g_thermite_middle'"/>
+			<effect_spawner start_time="14.4" enabled="true" name="'thermite_top_r'" />
+			<effect_spawner start_time="15.4" enabled="true" name="'thermite_top_l'" />
+			<sound start_time="14.4" action="'play'" event="'thermite_gate_burn'" object="'g_thermite_top_right'"/>
+			<sound start_time="15.4" action="'play'" event="'thermite_gate_burn'" object="'g_thermite_top_left'"/>
+			<effect_spawner start_time="32.4" enabled="true" name="'thermite_bot_r'" />
+			<effect_spawner start_time="31.4" enabled="true" name="'thermite_bot_l'" />
+			<sound start_time="32.4" action="'play'" event="'thermite_gate_burn'" object="'g_thermite_bottom_right'"/>
+			<sound start_time="31.4" action="'play'" event="'thermite_gate_burn'" object="'g_thermite_bottom_left'"/>
+			<effect_spawner start_time="34" enabled="false" name="'fuze_left'"/>
+			<effect_spawner start_time="34" enabled="false" name="'fuze_right'"/>
+			<run_sequence start_time="41.5" name="'thermite_done'" />
+			<run_sequence start_time="41.5" name="'disable_fuze'" />
+		</sequence>
+		<sequence editable_state="true" name="'disable_fuze'" triggable="true">
+			<effect_spawner enabled="false" name="'fuze_left'"/>
+			<effect_spawner enabled="false" name="'fuze_right'"/>
+			<effect_spawner enabled="false" name="'thermite_mid'"/>
+			<run_sequence name="'hide_thermite'"/>
+		</sequence>
+		<sequence editable_state="false" name="'thermite_done'" triggable="true"/>
+		<sequence editable_state="true" name="'disable_back_doors'" triggable="false">
+			<body enabled="false" name="'body_back_door_left'" />
+			<body enabled="false" name="'body_back_door_right'" />
+			<decal_mesh enabled="false" name="'dm_back_door_left_sheet_metal'" />
+			<decal_mesh enabled="false" name="'dm_back_door_right_sheet_metal'" />
+			<decal_mesh enabled="false" name="'dm_glass_back_door_left'" />
+			<decal_mesh enabled="false" name="'dm_glass_back_door_right'" />
+			<object enabled="false" name="'g_back_door_left'" />
+			<object enabled="false" name="'g_back_door_right'" />
+			<object enabled="false" name="'g_decals_right_back_door'" />
+			<object enabled="false" name="'g_glass_back_door_left'" />
+			<object enabled="false" name="'g_glass_back_door_right'" />
+			<set_variables var_door_back="1"/>
+			<run_sequence name="'done_opened'"/>
+		</sequence>
+		<sequence editable_state="true" name="'enable_back_doors'" triggable="false">
+			<body enabled="true" name="'body_back_door_left'" />
+			<body enabled="true" name="'body_back_door_right'" />
+			<decal_mesh enabled="true" name="'dm_back_door_left_sheet_metal'" />
+			<decal_mesh enabled="true" name="'dm_back_door_right_sheet_metal'" />
+			<decal_mesh enabled="true" name="'dm_glass_back_door_left'" />
+			<decal_mesh enabled="true" name="'dm_glass_back_door_right'" />
+			<object enabled="true" name="'g_back_door_left'" />
+			<object enabled="true" name="'g_back_door_right'" />
+			<object enabled="true" name="'g_decals_right_back_door'" />
+			<object enabled="true" name="'g_glass_back_door_left'" />
+			<object enabled="true" name="'g_glass_back_door_right'" />
+		</sequence>
+	</unit>
+</table>

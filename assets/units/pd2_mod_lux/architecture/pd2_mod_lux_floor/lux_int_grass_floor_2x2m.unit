@@ -1,0 +1,6 @@
+<unit type="cas" slot="1">
+    <object file="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_grass_floor_2x2m" />
+    <extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+    </extensions>
+</unit>

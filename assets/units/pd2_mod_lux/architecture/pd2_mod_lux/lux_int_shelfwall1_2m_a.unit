@@ -1,0 +1,7 @@
+<unit type="lxa" slot="1" >
+	<metadata material_config_group="lux_wall_group"/>
+    <object file="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_shelfwall1_2m_a" />
+    <extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+    </extensions>
+</unit>

@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<dynamic_object>
+	<metadata material_config_group="lux_wall_group"/>
+	<diesel materials="units/pd2_mod_lux/architecture/pd2_mod_lux/lux" orientation_object="rp_hcm_int_trim_2x1m_b" />
+    <bodies>
+        <body name="static_body" template="static" enabled="true" >
+            <object name="rp_hcm_int_trim_2x1m_b"/>
+            <object name="c_box_00" collision_type="box" padding="-2.5"/>
+        </body>
+    </bodies>
+	
+	<decal_surfaces default_material="plastic" static="true">
+		<decal_mesh name="g_hcm_int_trim_2x1m_b" material="plastic" enabled="true"/>
+	</decal_surfaces> 
+	
+    <graphics>
+        <object enabled="true" name="g_hcm_int_trim_2x1m_b" shadow_caster="false" />
+    </graphics>
+</dynamic_object> 

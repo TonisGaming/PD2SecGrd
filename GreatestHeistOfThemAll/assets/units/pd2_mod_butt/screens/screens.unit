@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<unit type="gen" slot="1">
+	<object file="units/pd2_mod_butt/screens/screens" />
+	<network sync="spawn"/>
+	<dependencies>
+		<depends_on font="fonts/font_digital" />
+	</dependencies>	
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+		<extension name="damage" class="UnitDamage" />
+		<extension class="DigitalGui" name="digital_gui" >
+			<var name="_gui_object" value="gui_object" />
+			<var name="FONT_SIZE" value="94" />
+			<var name="TYPE" value="number" />
+			<var name="NUMBER_DIGITS" value="6" />
+		</extension>
+	</extensions>
+</unit>
