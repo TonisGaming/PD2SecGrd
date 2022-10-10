@@ -1,0 +1,6 @@
+<materials version="3">
+    <material name="mtr_display" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture file="units/payday2/props/res_prop_livingroom_tv/tv_df"/>
+        <bump_normal_texture file="units/payday2/props/res_prop_livingroom_tv/tv_nm"/>
+    </material>
+</materials>

@@ -73,10 +73,17 @@
 		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_marble_beige_brb"/>
 		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_beige"/>
 		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_beige_pattern_floral"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_dark_beige"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_dark_beige_pattern_floral"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_marble_black_scarface"/>
 		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_marble_white"/>
 		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_limestone"/>
 		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_greenmarble"/>
 		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_beigemarble"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_green"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_green_pattern_floral"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_dark_green"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_dark_green_pattern_floral"/>
 		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall_door_cap_a"/>
 		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall_door_cap_a"/>
 		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall_door_cap_a" unload="true"/>
@@ -327,7 +334,32 @@
 		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_trim_4x05m_a"/>
 		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_trim_4x05m_a" unload="true"/>
 		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_trim_4x05m_a"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_gravel_floor"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_roof_floor"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_dirt_floor"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_carpet_floor_2x2m"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_carpet_floor_2x2m"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_carpet_floor_2x2m" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_carpet_floor_2x2m"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_carpet_floor"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_carpet_floor_red_scarface"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_carpet_floor_green"/>
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_carpet_floor_yellow"/>	
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_carpet_floor_stripes"/>		
+		<material_config path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_carpet_floor_beige_scarface"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_carpet_floor_4x4m"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_carpet_floor_4x4m"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_carpet_floor_4x4m" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_carpet_floor_4x4m"/>
+		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_carpet_floor_1x1m"/>
+		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_carpet_floor_1x1m"/>
+		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_carpet_floor_1x1m" unload="true"/>
+		<cooked_physics path="units/pd2_mod_lux/architecture/pd2_mod_lux_floor/lux_int_carpet_floor_1x1m"/>
 		<sequence_manager path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall3d_4m_closetdoor_a"/>
+		<material_config path="units/pd2_mod_constantine_penthouse/architecture/hcm/hcm_ext/hcm_ext_c_penthouse_rooftop_a" unload="true"/>
+		<model path="units/pd2_mod_constantine_penthouse/architecture/hcm/hcm_ext/hcm_ext_c_penthouse_rooftop_a" unload="true"/>
+		<object path="units/pd2_mod_constantine_penthouse/architecture/hcm/hcm_ext/hcm_ext_c_penthouse_rooftop_a" unload="true"/>
+		<unit load="true" path="units/pd2_mod_constantine_penthouse/architecture/hcm/hcm_ext/hcm_ext_c_penthouse_rooftop_a" unload="true"/>
 	</add>
 	<add>
 		<material_config path="units/pd2_mod_ton/textures/str"/>
@@ -443,6 +475,12 @@
 		<model path="units/pd2_mod_ttr/characters/civ_douchebag_contractor/civ_douchebag_contractor" unload="true"/>
 		<object path="units/pd2_mod_ttr/characters/civ_douchebag_contractor/civ_douchebag_contractor" unload="true"/>
 		<texture path="units/pd2_mod_ttr/characters/civ_douchebag_contractor/civ_douchebag_contractor_df" unload="true"/>
+		<unit load="true" path="units/pd2_mod_ttr/characters/ene_marshal_gensec/ene_marshal_gensec" unload="true"/>
+		<unit load="true" path="units/pd2_mod_ttr/characters/ene_marshal_gensec/ene_marshal_gensec_husk" unload="true"/>
+		<material_config path="units/pd2_mod_ttr/characters/ene_marshal_gensec/ene_marshal_gensec" unload="true"/>
+		<material_config path="units/pd2_mod_ttr/characters/ene_marshal_gensec/ene_marshal_gensec_contour" unload="true"/>
+		<model path="units/pd2_mod_ttr/characters/ene_marshal_gensec/ene_marshal_gensec" unload="true"/>
+		<object path="units/pd2_mod_ttr/characters/ene_marshal_gensec/ene_marshal_gensec" unload="true"/>
 	</add>
 	<add>
 		<texture path="units/pd2_mod_transit/vehicles/truck_gensec_transport_mk2_static/truck_gensec_transport_mk2_decal"/>
@@ -472,21 +510,21 @@
 		<unit path="units/pd2_mod_ton/ton_large_titan_shutter_black/brb_prop_titan_shutters_03"/>
 	</add>
 	<add>
-        <material_config path="units/pd2_mod_ton/equipment/ton_remote_hack_computer/ton_remote_hack_computer"/>
-        <model path="units/pd2_mod_ton/equipment/ton_remote_hack_computer/ton_remote_hack_computer"/>
-        <object path="units/pd2_mod_ton/equipment/ton_remote_hack_computer/ton_remote_hack_computer"/>
-        <sequence_manager path="units/pd2_mod_ton/equipment/ton_remote_hack_computer/ton_remote_hack_computer"/>
-        <texture path="guis/textures/pd2/hacking_segment_df"/>
-        <unit path="units/pd2_mod_ton/equipment/ton_remote_hack_computer/ton_remote_hack_computer"/>
-    </add>
-    <add>
-        <cooked_physics path="units/pd2_mod_ton/props/ton_prop_titan_shutter_black/ton_prop_titan_shutter_black"/>
-        <material_config path="units/pd2_mod_ton/props/ton_prop_titan_shutter_black/ton_prop_titan_shutter_black"/>
-        <model path="units/pd2_mod_ton/props/ton_prop_titan_shutter_black/ton_prop_titan_shutter_black"/>
-        <object path="units/pd2_mod_ton/props/ton_prop_titan_shutter_black/ton_prop_titan_shutter_black"/>
-        <sequence_manager path="units/pd2_mod_ton/props/ton_prop_titan_shutter_black/ton_prop_titan_shutter_black"/>
-        <unit path="units/pd2_mod_ton/props/ton_prop_titan_shutter_black/ton_prop_titan_shutter_black"/>
-    </add>
+		<material_config path="units/pd2_mod_ton/equipment/ton_remote_hack_computer/ton_remote_hack_computer"/>
+		<model path="units/pd2_mod_ton/equipment/ton_remote_hack_computer/ton_remote_hack_computer"/>
+		<object path="units/pd2_mod_ton/equipment/ton_remote_hack_computer/ton_remote_hack_computer"/>
+		<sequence_manager path="units/pd2_mod_ton/equipment/ton_remote_hack_computer/ton_remote_hack_computer"/>
+		<texture path="guis/textures/pd2/hacking_segment_df"/>
+		<unit path="units/pd2_mod_ton/equipment/ton_remote_hack_computer/ton_remote_hack_computer"/>
+	</add>
+	<add>
+		<cooked_physics path="units/pd2_mod_ton/props/ton_prop_titan_shutter_black/ton_prop_titan_shutter_black"/>
+		<material_config path="units/pd2_mod_ton/props/ton_prop_titan_shutter_black/ton_prop_titan_shutter_black"/>
+		<model path="units/pd2_mod_ton/props/ton_prop_titan_shutter_black/ton_prop_titan_shutter_black"/>
+		<object path="units/pd2_mod_ton/props/ton_prop_titan_shutter_black/ton_prop_titan_shutter_black"/>
+		<sequence_manager path="units/pd2_mod_ton/props/ton_prop_titan_shutter_black/ton_prop_titan_shutter_black"/>
+		<unit path="units/pd2_mod_ton/props/ton_prop_titan_shutter_black/ton_prop_titan_shutter_black"/>
+	</add>
 	<add>
 		<unit load="true" path="units/pd2_mod_ttr/characters/ene_fbi_gensec_1/ene_fbi_gensec_1" unload="true"/>
 		<unit load="true" path="units/pd2_mod_ttr/characters/ene_fbi_gensec_1/ene_fbi_gensec_1_husk" unload="true"/>

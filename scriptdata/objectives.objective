@@ -9,4 +9,5 @@
 	<objective description="tonsecgrd1_obj3_desc" id="tonsecgrd1_obj3" text="tonsecgrd1_obj3"/>
 	<objective description="tonsecgrd1_obj4_desc" id="tonsecgrd1_obj4" text="tonsecgrd1_obj4"/>
 	<objective description="tonsecgrd1_obj5_desc" id="tonsecgrd1_obj5" text="tonsecgrd1_obj5"/>
+	<objective description="tonsecgrd1_obj2_harddrive_desc" id="tonsecgrd1_obj2_harddrive" text="tonsecgrd1_obj2_harddrive"/>
 </table>

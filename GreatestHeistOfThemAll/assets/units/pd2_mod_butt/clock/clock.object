@@ -1,0 +1,14 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_butt/clock/clock" orientation_object="rp_root" />
+	<bodies>
+		<body name="body_editor" enabled="true" template="editor">
+			<object name="c_box" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<graphics>
+		<object name="g_clock" enabled="true" />
+		<object name="g_hour" enabled="true" />
+		<object name="g_minute" enabled="true" />
+		<object name="g_second" enabled="true" />
+	</graphics>
+</dynamic_object>

@@ -1,0 +1,5 @@
+<materials version="3">
+    <material render_template="generic:DIFFUSE_TEXTURE" name="mat_des_interior_props" version="2">
+        <diffuse_texture file="units/pd2_dlc_des/props/des_prop_alarm_outlets/des_interior_props_ras_df"/>
+    </material>
+</materials>

@@ -1,0 +1,26 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_butt/room/room" orientation_object="rp_hole" />
+	<sequence_manager file="units/pd2_mod_butt/room/room_hole" />
+	<animations>
+		<animation_group name="grp_anim_hole" enabled="false">
+			<object name="a_hole" />
+		</animation_group>
+		<animation_group name="grp_anim_hole_ceiling" enabled="false">
+			<object name="a_hole_ceiling" />
+		</animation_group>
+	</animations>
+	<bodies>
+		<body name="body_animated" enabled="true" template="animated">
+			<object name="a_hole" />
+			<object name="g_hole" collision_type="box" padding="-2.5" />
+		</body>
+		<body name="body_animated2" enabled="true" template="animated">
+			<object name="a_hole_ceiling" />
+			<object name="g_hole_ceiling" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<graphics>
+		<object name="g_hole" enabled="true" />
+		<object name="g_hole_ceiling" enabled="true" />
+	</graphics>
+</dynamic_object>

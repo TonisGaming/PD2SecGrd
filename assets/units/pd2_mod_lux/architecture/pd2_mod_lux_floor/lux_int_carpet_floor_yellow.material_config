@@ -1,0 +1,9 @@
+<materials version="3" group="lux_floor_carpet_group">
+    <material name="lambert1" render_template="generic" version="2"/>
+    <material name="mat_gam_flr_03" render_template="generic:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP:SIMPLE_TINT" version="2">
+        <diffuse_texture file="units/pd2_dlc_pent/architecture/int/int_textures/pent_carpet_patterned_df"/>
+        <material_texture file="units/pd2_dlc_chca/architecture/int/int_textures/chca_int_office_carpet_gsma"/>
+        <bump_normal_texture file="units/pd2_dlc_sah/tiling_textures/sah_carpet_patterned/sah_carpet_patterned_nm"/>
+        <variable type="vector3" name="tint_color" value="0.4960629940033 0.4960629940033 0.4960629940033"/>
+    </material>
+</materials>

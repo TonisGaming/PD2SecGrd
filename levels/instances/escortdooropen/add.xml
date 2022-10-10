@@ -1,0 +1,217 @@
+<table directory="assets">
+	<add from_db="true" path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_arch_door" type="unit">
+		<material_config path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_main_interior"/>
+		<object path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_arch_door"/>
+		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_arch_door"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" type="unit">
+		<material_config path="units/payday2/architecture/mkp/mkp" unload="true"/>
+		<object path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
+		<unit path="units/payday2/architecture/mkp/mkp_int_floor_4x4m_a" unload="true"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_arch_door_concrete" type="unit">
+		<material_config path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_main_interior"/>
+		<object path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_arch_door_concrete"/>
+		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_arch_door_concrete"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_arch_door_large" type="unit">
+		<material_config path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_main_interior"/>
+		<object path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_arch_door_large"/>
+		<unit path="units/pd2_dlc_berry/architecture/bry_mountain_interiors/bry_mountain_arch_door_large"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_casino/architecture/cas_hotel_room_door/cas_hotel_room_door" type="unit">
+		<unit path="units/pd2_dlc_casino/architecture/cas_hotel_room_door/cas_hotel_room_door"/>
+		<object path="units/pd2_dlc_casino/architecture/cas_hotel_room_door/cas_hotel_room_door"/>
+		<material_config path="units/pd2_dlc_casino/architecture/cas_hotel_room_door/cas_hotel_room_door"/>
+		<unit path="units/pd2_dlc_casino/architecture/cas_hotel_room_door/cas_hotel_room_door_debris"/>
+		<object path="units/pd2_dlc_casino/architecture/cas_hotel_room_door/cas_hotel_room_door_debris"/>
+		<material_config path="units/pd2_dlc_casino/architecture/cas_hotel_room_door/cas_hotel_room_door_debris"/>
+		<bnk path="soundbanks/regular_sfx"/>
+		<physic_effect path="physic_effects/push_sphere"/>
+		<sequence_manager path="units/pd2_dlc_casino/architecture/cas_hotel_room_door/cas_hotel_room_door"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/com_int_election/com_int_election_door_main" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<material_config path="units/payday2/architecture/com_int_election/com_int_election"/>
+		<object path="units/payday2/architecture/com_int_election/com_int_election_door_main"/>
+		<sequence_manager path="units/payday2/architecture/com_int_election/com_int_election_door_main"/>
+		<unit path="units/payday2/architecture/com_int_election/com_int_election_door_main"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc1/equipment/gen_interactable_door_wooden_c/gen_interactable_door_wooden_c_v2_dirty" type="unit">
+		<unit path="units/pd2_dlc1/equipment/gen_interactable_door_wooden_c/gen_interactable_door_wooden_c_v2_dirty"/>
+		<object path="units/pd2_dlc1/equipment/gen_interactable_door_wooden_c/gen_interactable_door_wooden_c_v2_dirty"/>
+		<material_config path="units/pd2_dlc1/equipment/gen_interactable_door_wooden_c/gen_interactable_door_wooden_c_v2_dirty"/>
+		<unit path="units/pd2_dlc1/equipment/gen_interactable_door_wooden_c/spawn_debris_door_wooden_c_v2_dirty"/>
+		<object path="units/pd2_dlc1/equipment/gen_interactable_door_wooden_c/spawn_debris_door_wooden_c_v2_dirty"/>
+		<material_config path="units/pd2_dlc1/equipment/gen_interactable_door_wooden_c/spawn_debris_door_wooden_c_v2_dirty"/>
+		<bnk path="soundbanks/regular_sfx"/>
+		<physic_effect path="physic_effects/push_sphere"/>
+		<sequence_manager path="units/pd2_dlc1/equipment/gen_interactable_door_wooden_c/gen_interactable_door_wooden_c_v2_dirty"/>
+	</add>
+	<add from_db="true" path="units/payday2/equipment/ind_interactable_door_plywood/ind_interactable_door_plywood" type="unit">
+		<unit path="units/payday2/equipment/ind_interactable_door_plywood/ind_interactable_door_plywood"/>
+		<object path="units/payday2/equipment/ind_interactable_door_plywood/ind_interactable_door_plywood"/>
+		<material_config path="units/payday2/equipment/ind_interactable_door_plywood/ind_interactable_door_plywood"/>
+		<sequence_manager path="units/payday2/equipment/ind_interactable_door_plywood/ind_interactable_door_plywood"/>
+		<unit path="units/payday2/equipment/ind_interactable_door_plywood/spawn_debris_door_wood"/>
+		<object path="units/payday2/equipment/ind_interactable_door_plywood/spawn_debris_door_wood"/>
+		<material_config path="units/payday2/equipment/ind_interactable_door_plywood/spawn_debris_door_wood"/>
+		<object path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<material_config path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<sequence_manager path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<bnk path="soundbanks/regular_sfx"/>
+		<physic_effect path="physic_effects/push_sphere"/>
+	</add>
+	<add from_db="true" path="units/payday2/equipment/ind_interactable_door_reinforced/ind_interactable_door_pieces" type="unit">
+		<material_config path="units/payday2/equipment/ind_interactable_door_reinforced/ind_interactable_door_pieces"/>
+		<object path="units/payday2/equipment/ind_interactable_door_reinforced/ind_interactable_door_pieces"/>
+		<unit path="units/payday2/equipment/ind_interactable_door_reinforced/ind_interactable_door_pieces"/>
+	</add>
+	<add from_db="true" path="units/payday2/equipment/ind_interactable_door_reinforced/ind_interactable_door_reinforced" type="unit">
+		<unit path="units/payday2/equipment/ind_interactable_door_reinforced/ind_interactable_door_reinforced"/>
+		<object path="units/payday2/equipment/ind_interactable_door_reinforced/ind_interactable_door_reinforced"/>
+		<material_config path="units/payday2/equipment/ind_interactable_door_reinforced/ind_interactable_door_reinforced"/>
+		<sequence_manager path="units/payday2/equipment/ind_interactable_door_reinforced/ind_interactable_door_reinforced"/>
+		<unit path="units/payday2/equipment/ind_interactable_door_reinforced/ind_interactable_door_pieces"/>
+		<object path="units/payday2/equipment/ind_interactable_door_reinforced/ind_interactable_door_pieces"/>
+		<material_config path="units/payday2/equipment/ind_interactable_door_reinforced/ind_interactable_door_pieces"/>
+		<object path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<material_config path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<sequence_manager path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<bnk path="soundbanks/regular_sfx"/>
+		<physic_effect path="physic_effects/push_sphere"/>
+	</add>
+	<add from_db="true" path="units/payday2/equipment/ind_interactable_door_reinforced/ind_static_door_reinforced" type="unit">
+		<material_config path="units/payday2/equipment/ind_interactable_door_reinforced/ind_static_door_reinforced"/>
+		<object path="units/payday2/equipment/ind_interactable_door_reinforced/ind_static_door_reinforced"/>
+		<unit path="units/payday2/equipment/ind_interactable_door_reinforced/ind_static_door_reinforced"/>
+	</add>
+	<add from_db="true" path="units/pd2_indiana/equipment/mus_interactable_door_reinforced/mus_interactable_door" type="unit">
+		<object path="units/pd2_indiana/equipment/mus_interactable_door_reinforced/mus_interactable_door"/>
+		<material_config path="units/pd2_indiana/equipment/mus_interactable_door_reinforced/mus_interactable_door_reinforced"/>
+		<sequence_manager path="units/pd2_indiana/equipment/mus_interactable_door_reinforced/mus_interactable_door"/>
+		<object path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<material_config path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<sequence_manager path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<bnk path="soundbanks/regular_sfx"/>
+		<unit path="units/pd2_indiana/equipment/mus_interactable_door_reinforced/mus_interactable_door"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_pent/equipment/pent_interactable_door_meeting_room/pent_interactable_door_meeting_room" type="unit">
+		<unit path="units/pd2_dlc_pent/equipment/pent_interactable_door_meeting_room/pent_interactable_door_meeting_room"/>
+		<object path="units/pd2_dlc_pent/equipment/pent_interactable_door_meeting_room/pent_interactable_door_meeting_room"/>
+		<material_config path="units/pd2_dlc_pent/equipment/pent_interactable_door_meeting_room/pent_interactable_door_meeting_room"/>
+		<unit path="units/payday2/equipment/gen_interactable_door_wooden/spawn_debris_door_wooden"/>
+		<object path="units/payday2/equipment/gen_interactable_door_wooden/spawn_debris_door_wooden"/>
+		<material_config path="units/payday2/equipment/gen_interactable_door_wooden/spawn_debris_door_wooden"/>
+		<bnk path="soundbanks/regular_sfx"/>
+		<physic_effect path="physic_effects/push_sphere"/>
+		<sequence_manager path="units/pd2_dlc_pent/equipment/pent_interactable_door_meeting_room/pent_interactable_door_meeting_room"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_peta/equipment/pta_interactable_door_drill/pta_interactable_door_drill" type="unit">
+		<unit path="units/pd2_dlc_peta/equipment/pta_interactable_door_drill/pta_interactable_door_drill"/>
+		<object path="units/pd2_dlc_peta/equipment/pta_interactable_door_drill/pta_interactable_door_drill"/>
+		<material_config path="units/pd2_dlc_peta/equipment/pta_interactable_door_drill/pta_interactable_door_drill"/>
+		<sequence_manager path="units/pd2_dlc_peta/equipment/pta_interactable_door_drill/pta_interactable_door_drill"/>
+		<unit path="units/payday2/equipment/gen_interactable_door_keycard/spawn_debris_door_metal"/>
+		<object path="units/payday2/equipment/gen_interactable_door_keycard/spawn_debris_door_metal"/>
+		<material_config path="units/payday2/equipment/gen_interactable_door_keycard/spawn_debris_door_metal"/>
+		<object path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<material_config path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<sequence_manager path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<unit path="units/payday2/equipment/gen_interactable_panel_keycard/gen_interactable_panel_keycard"/>
+		<object path="units/payday2/equipment/gen_interactable_panel_keycard/gen_interactable_panel_keycard"/>
+		<material_config path="units/pickups/pickup_bank_manager_key/pickup_bank_manager_key"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_panel_keycard/gen_interactable_panel_keycard"/>
+		<unit path="units/payday2/equipment/gen_interactable_door_keycard/gen_interactable_door_keycard_jammer"/>
+		<object path="units/payday2/equipment/gen_interactable_door_keycard/gen_interactable_door_keycard_jammer"/>
+		<material_config path="units/payday2/equipment/gen_interactable_door_keycard/gen_interactable_door_keycard_jammer"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_door_keycard/gen_interactable_door_keycard_jammer"/>
+		<object path="units/payday2/equipment/item_door_drill_small/item_door_drill_small"/>
+		<material_config path="units/payday2/equipment/item_door_drill_small/item_door_drill_small"/>
+		<sequence_manager path="units/payday2/equipment/item_door_drill_small/item_door_drill_small"/>
+		<bnk path="soundbanks/regular_sfx"/>
+		<gui path="guis/timer_gui"/>
+		<physic_effect path="physic_effects/push_sphere"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_vit/equipment/vit_interactable_door_wooden_white/vit_interactable_door_wooden_white" type="unit">
+		<unit path="units/pd2_dlc_vit/equipment/vit_interactable_door_wooden_white/vit_interactable_door_wooden_white"/>
+		<object path="units/pd2_dlc_vit/equipment/vit_interactable_door_wooden_white/vit_interactable_door_wooden_white"/>
+		<material_config path="units/pd2_dlc_vit/equipment/vit_interactable_door_wooden_white/vit_interactable_door_wooden_white"/>
+		<unit path="units/pd2_dlc_vit/equipment/vit_interactable_door_wooden_white/debris/spawn_prop_door_white_debris_01"/>
+		<object path="units/pd2_dlc_vit/equipment/vit_interactable_door_wooden_white/debris/spawn_prop_door_white_debris_01"/>
+		<unit path="units/pd2_dlc_vit/equipment/vit_interactable_door_wooden_white/debris/spawn_prop_door_brown_debris_01"/>
+		<object path="units/pd2_dlc_vit/equipment/vit_interactable_door_wooden_white/debris/spawn_prop_door_brown_debris_01"/>
+		<material_config path="units/pd2_dlc_vit/equipment/vit_interactable_door_wooden_brown/vit_interactable_door_wooden_brown"/>
+		<bnk path="soundbanks/regular_sfx"/>
+		<physic_effect path="physic_effects/push_sphere"/>
+		<sequence_manager path="units/pd2_dlc_vit/equipment/vit_interactable_door_wooden_white/vit_interactable_door_wooden_white"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_vit/equipment/vit_interactable_door_wooden_white/vit_interactable_door_wooden_white_double" type="unit">
+		<unit path="units/pd2_dlc_vit/equipment/vit_interactable_door_wooden_white/vit_interactable_door_wooden_white_double"/>
+		<object path="units/pd2_dlc_vit/equipment/vit_interactable_door_wooden_white/vit_interactable_door_wooden_white_double"/>
+		<unit path="units/pd2_dlc_vit/equipment/vit_interactable_door_wooden_white/debris/spawn_prop_door_white_debris_02"/>
+		<object path="units/pd2_dlc_vit/equipment/vit_interactable_door_wooden_white/debris/spawn_prop_door_white_debris_02"/>
+		<bnk path="soundbanks/regular_sfx"/>
+		<material_config path="units/pd2_dlc_vit/equipment/vit_interactable_door_wooden_white/vit_interactable_door_wooden_white_double"/>
+		<physic_effect path="physic_effects/push_sphere"/>
+		<sequence_manager path="units/pd2_dlc_vit/equipment/vit_interactable_door_wooden_white/vit_interactable_door_wooden_white_double"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chca/architecture/int/chca_interactable_door/chca_interactable_door" type="unit">
+		<unit path="units/pd2_dlc_chca/architecture/int/chca_interactable_door/chca_interactable_door"/>
+		<object path="units/pd2_dlc_chca/architecture/int/chca_interactable_door/chca_interactable_door"/>
+		<material_config path="units/pd2_dlc_chca/architecture/int/chca_interactable_door/chca_interactable_door"/>
+		<unit path="units/pd2_dlc_chas/equipment/chas_interactable_auction_door/spawn_chas_auction_door_debris"/>
+		<object path="units/pd2_dlc_chas/equipment/chas_interactable_auction_door/spawn_chas_auction_door_debris"/>
+		<material_config path="units/pd2_dlc_chas/equipment/chas_interactable_auction_door/chas_interactable_auction_door"/>
+		<bnk path="soundbanks/regular_sfx"/>
+		<physic_effect path="physic_effects/push_sphere"/>
+		<sequence_manager path="units/pd2_dlc_chca/architecture/int/chca_interactable_door/chca_interactable_door"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_chca/architecture/int/chca_interactable_door_wooden/chca_interactable_door_wooden" type="unit">
+		<unit path="units/pd2_dlc_chca/architecture/int/chca_interactable_door_wooden/chca_interactable_door_wooden"/>
+		<object path="units/pd2_dlc_chca/architecture/int/chca_interactable_door_wooden/chca_interactable_door_wooden"/>
+		<material_config path="units/pd2_dlc_chca/architecture/int/chca_interactable_door_wooden/chca_interactable_door_wooden"/>
+		<unit path="units/payday2/equipment/gen_interactable_door_wooden_a/spawn_debris_door_wooden_a"/>
+		<object path="units/payday2/equipment/gen_interactable_door_wooden_a/spawn_debris_door_wooden_a"/>
+		<material_config path="units/payday2/equipment/gen_interactable_door_wooden_a/spawn_debris_door_wooden_a"/>
+		<bnk path="soundbanks/regular_sfx"/>
+		<physic_effect path="physic_effects/push_sphere"/>
+		<sequence_manager path="units/pd2_dlc_chca/architecture/int/chca_interactable_door_wooden/chca_interactable_door_wooden"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_flat/props/flt_prop_apartment_door/flt_prop_interactable_door_corridor" type="unit">
+		<object path="units/pd2_dlc_flat/props/flt_prop_apartment_door/flt_prop_interactable_door_corridor"/>
+		<material_config path="units/pd2_dlc_flat/props/flt_prop_apartment_door/flt_prop_interactable_door_corridor"/>
+		<sequence_manager path="units/pd2_dlc_flat/props/flt_prop_apartment_door/flt_prop_interactable_door_corridor"/>
+		<object path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<material_config path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<sequence_manager path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<bnk path="soundbanks/regular_sfx"/>
+		<unit path="units/pd2_dlc_flat/props/flt_prop_apartment_door/flt_prop_interactable_door_corridor"/>
+	</add>
+	<add from_db="true" path="units/pd2_dlc_pex/props/pex_interactable_door_drill/pex_interactable_door_drill" type="unit">
+		<unit path="units/pd2_dlc_pex/props/pex_interactable_door_drill/pex_interactable_door_drill"/>
+		<object path="units/pd2_dlc_pex/props/pex_interactable_door_drill/pex_interactable_door_drill"/>
+		<material_config path="units/payday2/equipment/gen_interactable_door_keycard/gen_interactable_door_keycard"/>
+		<sequence_manager path="units/pd2_dlc_pex/props/pex_interactable_door_drill/pex_interactable_door_drill"/>
+		<unit path="units/payday2/equipment/gen_interactable_door_keycard/spawn_debris_door_metal"/>
+		<object path="units/payday2/equipment/gen_interactable_door_keycard/spawn_debris_door_metal"/>
+		<material_config path="units/payday2/equipment/gen_interactable_door_keycard/spawn_debris_door_metal"/>
+		<object path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<material_config path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<sequence_manager path="units/payday2/equipment/gen_equipment_shape_charge/gen_equipment_shape_charge"/>
+		<unit path="units/payday2/equipment/gen_interactable_panel_keycard/gen_interactable_panel_keycard"/>
+		<object path="units/payday2/equipment/gen_interactable_panel_keycard/gen_interactable_panel_keycard"/>
+		<material_config path="units/pickups/pickup_bank_manager_key/pickup_bank_manager_key"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_panel_keycard/gen_interactable_panel_keycard"/>
+		<unit path="units/payday2/equipment/gen_interactable_door_keycard/gen_interactable_door_keycard_jammer"/>
+		<bnk path="soundbanks/regular_sfx"/>
+		<object path="units/payday2/equipment/gen_interactable_door_keycard/gen_interactable_door_keycard_jammer"/>
+		<material_config path="units/payday2/equipment/gen_interactable_door_keycard/gen_interactable_door_keycard_jammer"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_door_keycard/gen_interactable_door_keycard_jammer"/>
+		<object path="units/payday2/equipment/item_door_drill_small/item_door_drill_small"/>
+		<material_config path="units/payday2/equipment/item_door_drill_small/item_door_drill_small"/>
+		<sequence_manager path="units/payday2/equipment/item_door_drill_small/item_door_drill_small"/>
+		<gui path="guis/timer_gui"/>
+		<physic_effect path="physic_effects/push_sphere"/>
+	</add>
+</table>

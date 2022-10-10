@@ -1,0 +1,17 @@
+<table>
+	<unit>
+		<sequence editable_state="true" name="'hide'" triggable="true">
+			<object name="'g_van'" enabled="false" />
+			<object name="'g_mull'" enabled="false" />
+		</sequence>
+		<sequence editable_state="true" name="'animate'" triggable="true">
+			<sound action="'play'" event="'tiny_twitch_chase'" source="'snd'" />
+			<animation_group enabled="true" from="0/30" name="'grp_anim'" to="120/30" speed="0.4"/>
+			<object name="'g_van'" enabled="true" />
+			<object name="'g_mull'" enabled="true" />
+			<object start_time="120/15" name="'g_van'" enabled="false" />
+			<object start_time="120/15" name="'g_mull'" enabled="false" />
+			<sound start_time="115/15" action="'play'" event="'tiny_twitch_dies'" source="'snd'" />
+		</sequence>
+	</unit>
+</table>

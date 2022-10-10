@@ -1,0 +1,12 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_butt/room/room" orientation_object="rp_pipes_int" />
+	<sequence_manager file="units/pd2_mod_butt/room/pipes_int" />
+	<bodies>
+		<body name="body_animated" enabled="true" template="editor">
+			<object name="g_pipes_int" collision_type="box" padding="-2.5" />
+		</body>
+	</bodies>
+	<graphics>
+		<object name="g_pipes_int" enabled="true" />
+	</graphics>
+</dynamic_object>

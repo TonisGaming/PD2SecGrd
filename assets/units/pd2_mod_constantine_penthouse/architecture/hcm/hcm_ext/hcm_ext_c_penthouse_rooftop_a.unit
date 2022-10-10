@@ -1,0 +1,6 @@
+<unit type="hcm" slot="1" >
+    <object file="units/pd2_mod_constantine_penthouse/architecture/hcm/hcm_ext/hcm_ext_c_penthouse_rooftop_a" />
+    <extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+    </extensions>
+</unit>

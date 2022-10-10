@@ -25,6 +25,9 @@
 			<value_node value="tonissecgrd_assets"/>
 		</packages>
 	</instance>
+	<instance id="escortdooropen">
+		<packages/>
+	</instance>
 	<Localization default="english.txt" directory="loc">
 		<loc file="english.txt" language="english"/>
 	</Localization>
@@ -40,24 +43,24 @@
 			<hook file="gensec_enemies.lua" source_file="lib/tweak_data/groupaitweakdata"/>
 			<hook file="smackdowncharacters.lua" source_file="lib/tweak_data/charactertweakdata"/>
 			<hook file="GamemodeStandard.lua" source_file="lib/gamemodes/gamemodestandard"/>
-            <hook file="HudRemoteHacking.lua" source_file="lib/managers/hudmanagerpd2"/>
-            <hook file="IngameHackingInteraction.lua" source_file="lib/states/ingameplayerbase"/>
-            <hook file="RemoteHackingInteractionExt.lua" source_file="lib/units/interactions/interactionext"/>
-        </hooks>
-        <interactions>
-            <interaction id="hack_remote_difficulty_1" text_id="hud_int_remote_hack" axis="y" time="0">
-                <minigame_hacking time="20" speed="100" segments="3" max_segments="13" max_attempts="4"/>
-            </interaction>
-            <interaction id="hack_remote_difficulty_2" text_id="hud_int_remote_hack" axis="y" time="0">
-                <minigame_hacking time="18" speed="130" segments="3" max_segments="16" max_attempts="3"/>
-            </interaction>
-            <interaction id="hack_remote_difficulty_3" text_id="hud_int_remote_hack" axis="y" time="0">
-                <minigame_hacking time="15" speed="130" segments="4" max_segments="16" max_attempts="3"/>
-            </interaction>
-            <interaction id="hack_remote_difficulty_4" text_id="hud_int_remote_hack" axis="y" time="0">
-                <minigame_hacking time="15" speed="150" segments="4" max_segments="18" max_attempts="3"/>
-            </interaction>
-        </interactions>
+			<hook file="HudRemoteHacking.lua" source_file="lib/managers/hudmanagerpd2"/>
+			<hook file="IngameHackingInteraction.lua" source_file="lib/states/ingameplayerbase"/>
+			<hook file="RemoteHackingInteractionExt.lua" source_file="lib/units/interactions/interactionext"/>
+		</hooks>
+		<interactions>
+			<interaction axis="y" id="hack_remote_difficulty_1" text_id="hud_int_remote_hack" time="0">
+				<minigame_hacking max_attempts="4" max_segments="13" segments="3" speed="100" time="20"/>
+			</interaction>
+			<interaction axis="y" id="hack_remote_difficulty_2" text_id="hud_int_remote_hack" time="0">
+				<minigame_hacking max_attempts="3" max_segments="16" segments="3" speed="130" time="18"/>
+			</interaction>
+			<interaction axis="y" id="hack_remote_difficulty_3" text_id="hud_int_remote_hack" time="0">
+				<minigame_hacking max_attempts="3" max_segments="16" segments="4" speed="130" time="15"/>
+			</interaction>
+			<interaction axis="y" id="hack_remote_difficulty_4" text_id="hud_int_remote_hack" time="0">
+				<minigame_hacking max_attempts="3" max_segments="18" segments="4" speed="150" time="15"/>
+			</interaction>
+		</interactions>
 		<outro_event/>
 		<packages>
 			<value_node value="tonissecgrd_assets"/>
