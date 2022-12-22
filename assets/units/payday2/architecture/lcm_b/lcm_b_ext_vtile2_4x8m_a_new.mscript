@@ -1,0 +1,4 @@
+<?xml version="1.0" ?>
+<modelscript>
+    <import file="lcm_b_ext_vtile2_4x8m_a_new.glb" type="gltf" create_objects="true"/>
+</modelscript>

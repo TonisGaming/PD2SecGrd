@@ -2,6 +2,8 @@
 if not Global.level_data then return end
 
 Hooks:PostHook(GroupAITweakData, "_init_unit_categories", "america_groupai", function(self, difficulty_index)
+
+	
 	
 	self.unit_categories.CS_cop_C45_R870.unit_types.america = {
 		Idstring("units/pd2_mod_ttr/characters/ene_swat_gensec_1/ene_swat_gensec_1"),

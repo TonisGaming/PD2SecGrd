@@ -1,0 +1,4 @@
+<?xml version="1.0" ?>
+<modelscript>
+    <import file="hcm_ext_8x16m_e_new.glb" type="gltf" create_objects="true"/>
+</modelscript>

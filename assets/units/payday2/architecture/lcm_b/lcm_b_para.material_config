@@ -1,0 +1,52 @@
+<materials version="3">
+    <material version="2" render_template="shadow_caster_only" name="shadow_caster"/>
+	
+    <material name="mat_lcm_b_ext_01a" decal_material="concrete" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT:VERTEX_COLOR" version="2">
+        <diffuse_texture		file="units/payday2/architecture/lcm_b/lcm_b_ext_01a_df"/>
+        <bump_normal_texture	file="units/payday2/architecture/lcm_b/lcm_b_ext_01a_nm"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+    </material>
+	
+    <material name="mat_lcm_b_ext_01a_glass" decal_material="glass_breakable" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:OPACITY_FADE" version="2">
+        <diffuse_texture		file="units/payday2/architecture/lcm_b/lcm_b_ext_01a_df"/>
+        <opacity_texture		file="units/glass/vehicle_glass_op"/>
+        <variable value="1 1 0.5" type="vector3" name="fresnel_settings"/>
+        <variable value="1200 2400 0" type="vector3" name="opacity_fade"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+    </material>
+	
+    <material name="mat_lcm_b_ext_01b" decal_material="concrete" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:RL_CORE_ENVIRONMENT:VERTEX_COLOR" version="2">
+        <diffuse_texture		file="units/payday2/architecture/lcm_b/lcm_b_ext_01b_df"/>
+        <bump_normal_texture	file="units/payday2/architecture/lcm_b/lcm_b_ext_01b_nm"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+    </material>
+	
+    <material name="mat_lcm_b_ext_01b_glass" decal_material="glass_breakable" render_template="opacity:CUBE_ENVIRONMENT_MAPPING:CUBE_FRESNEL:DIFFUSE_TEXTURE:OPACITY_FADE" version="2">
+        <diffuse_texture		file="units/payday2/architecture/lcm_b/lcm_b_ext_01b_df"/>
+        <opacity_texture		file="units/glass/vehicle_glass_op"/>
+        <variable value="1 1 0.5" type="vector3" name="fresnel_settings"/>
+        <variable value="1200 2400 0" type="vector3" name="opacity_fade"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+    </material>
+	
+    <material name="mat_interior_ind" decal_material="glass_breakable" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:NORMALMAP_DEPTH_TEXTURE:NORMALMAP_UV1:PARALLAX:PARALLAX_LOD:PARALLAX_RELIEF" version="2">
+        <diffuse_texture		file="shared_textures/ind_brick_white_a_df"/>
+        <bump_normal_texture	file="shared_textures/ind_brick_white_a_dnm"/>
+        <material_texture		file="shared_textures/blank_gsma"/>
+        <variable type="scalar" name="parallax_scale" value="0.33"/>
+        <variable type="scalar" name="parallax_layers" value="2"/>
+        <variable type="scalar" name="parallax_lod" value="3200"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+    </material>
+	
+    <material name="mat_interior" decal_material="glass_breakable" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:NORMALMAP:NORMALMAP_DEPTH_TEXTURE:NORMALMAP_UV1:PARALLAX:PARALLAX_LOD:PARALLAX_RELIEF" version="2">
+        <diffuse_texture		file="shared_textures/lcm_apartment_a_df"/>
+        <bump_normal_texture	file="shared_textures/lcm_apartment_a_dnm"/>
+        <material_texture		file="shared_textures/blank_gsma"/>
+        <variable type="scalar" name="parallax_scale" value="0.33"/>
+        <variable type="scalar" name="parallax_layers" value="2"/>
+        <variable type="scalar" name="parallax_lod" value="3200"/>
+        <reflection_texture type="cube" global_texture="current_global_texture"/>
+    </material>
+	
+</materials>

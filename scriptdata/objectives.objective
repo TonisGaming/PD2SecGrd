@@ -10,4 +10,8 @@
 	<objective description="tonsecgrd1_obj4_desc" id="tonsecgrd1_obj4" text="tonsecgrd1_obj4"/>
 	<objective description="tonsecgrd1_obj5_desc" id="tonsecgrd1_obj5" text="tonsecgrd1_obj5"/>
 	<objective description="tonsecgrd1_obj2_harddrive_desc" id="tonsecgrd1_obj2_harddrive" text="tonsecgrd1_obj2_harddrive"/>
+	<objective description="tonsecgrd1_obj2_harddrive_find_desc" id="tonsecgrd1_obj2_harddrive_find" text="tonsecgrd1_obj2_harddrive_find"/>
+	<objective description="tonsecgrd1_obj6_desc" id="tonsecgrd1_obj6" text="tonsecgrd1_obj6"/>
+	<objective description="tonsecgrd1_escape_desc" id="tonsecgrd1_escape" text="tonsecgrd1_escape"/>
+	<objective description="tonsecgrd1_obj4_keycard_desc" id="tonsecgrd1_obj4_keycard" text="tonsecgrd1_obj4_keycard"/>
 </table>

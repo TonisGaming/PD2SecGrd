@@ -1,5 +1,34 @@
 <table directory="assets">
 	<add>
+		<material_config	path="units/payday2/architecture/lcm_b/lcm_b_para"						unload="true"/>
+		<unit				path="units/payday2/architecture/lcm_b/lcm_b_ext_vtile2_4x8m_a"			unload="true" force="true" />
+		<object				path="units/payday2/architecture/lcm_b/lcm_b_ext_vtile2_4x8m_a_new"		unload="true"/>
+		<model				path="units/payday2/architecture/lcm_b/lcm_b_ext_vtile2_4x8m_a_new"		unload="true"/>
+		<unit				path="units/payday2/architecture/lcm_b/lcm_b_ext_vtile4_4x8m_b"			unload="true" force="true" />
+		<object				path="units/payday2/architecture/lcm_b/lcm_b_ext_vtile4_4x8m_b_new" 	unload="true"/>
+		<model				path="units/payday2/architecture/lcm_b/lcm_b_ext_vtile4_4x8m_b_new" 	unload="true"/>
+		<unit				path="units/payday2/architecture/lcm_b/lcm_b_ext_vtile4_4x8m_d"			unload="true" force="true" />
+		<object				path="units/payday2/architecture/lcm_b/lcm_b_ext_vtile4_4x8m_d_new"		unload="true"/>
+		<model				path="units/payday2/architecture/lcm_b/lcm_b_ext_vtile4_4x8m_d_new"		unload="true"/>
+		
+		<material_config	path="units/payday2/architecture/hcm/hcm_para"							unload="true"/>
+		<unit				path="units/payday2/architecture/hcm/hcm_ext_8x16m_e_new"					unload="true"	force="true" />
+		<object				path="units/payday2/architecture/hcm/hcm_ext_8x16m_e_new"				unload="true"/>
+		<model				path="units/payday2/architecture/hcm/hcm_ext_8x16m_e_new"				unload="true"/>
+		
+		<texture			path="shared_textures/ind_brick_white_a_df"								unload="true"/>
+		<texture			path="shared_textures/ind_brick_white_a_dnm"							unload="true"/>
+		<texture			path="shared_textures/hcm_office_a_df"									unload="true"/>
+		<texture			path="shared_textures/hcm_office_a_dnm"									unload="true"/>
+		<texture			path="shared_textures/lcm_apartment_a_df"								unload="true"/>
+		<texture			path="shared_textures/lcm_apartment_a_dnm"								unload="true"/>
+		<texture			path="shared_textures/blank_gsma"										unload="true"/>
+	</add>
+	<add>
+		<effect load="true" path="effects/particles/rain/raindrop_screen"/>
+		<effect load="true" path="effects/particles/rain/rain_only"/>
+		<effect load="true" path="effects/particles/rain/rain_01_a"/> 
+		<bnk load="true" path="soundbanks/ambiences"/>
 		<model path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall3_1m_a"/>
 		<object path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall3_1m_a"/>
 		<unit load="true" path="units/pd2_mod_lux/architecture/pd2_mod_lux/lux_int_wall3_1m_a" unload="true"/>

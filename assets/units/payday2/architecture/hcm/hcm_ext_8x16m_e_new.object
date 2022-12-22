@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<dynamic_object>
+	<diesel materials="units/payday2/architecture/hcm/hcm_para" orientation_object="rp_hcm_ext_8x16m_e" />
+    <bodies>
+        <body name="static_body" template="static" enabled="true" >
+            <object name="rp_hcm_ext_8x16m_e"/>
+			<object name="c_box_01" collision_type="box" padding="-2.5"/>
+			<object name="c_box_02" collision_type="box" padding="-2.5"/>
+        </body>
+    </bodies>
+	
+	<decal_surfaces default_material="metal" static="true">
+		<decal_mesh name="g_lod1" material="metal" enabled="true"/>
+	</decal_surfaces> 
+	
+    <graphics>
+		<lod_object name="lod_bottom">
+			<object name="g_lod0"	enabled="true" max_distance="19200" />
+			<object name="g_lod1"	enabled="true" />
+		</lod_object>
+		<object name="s_s" enabled="true" shadow_caster="true"/>
+    </graphics>
+	
+</dynamic_object> 
