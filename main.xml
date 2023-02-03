@@ -42,7 +42,6 @@
 		<hooks directory="hooks">
 			<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>
 			<hook file="gensec_enemies.lua" source_file="lib/tweak_data/groupaitweakdata"/>
-			<hook file="groupaitweakdata.lua" source_file="lib/tweak_data/groupaitweakdata"/>
 			<hook file="smackdowncharacters.lua" source_file="lib/tweak_data/charactertweakdata"/>
 			<hook file="GamemodeStandard.lua" source_file="lib/gamemodes/gamemodestandard"/>
 			<hook file="HudRemoteHacking.lua" source_file="lib/managers/hudmanagerpd2"/>
