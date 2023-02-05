@@ -581,65 +581,6 @@
 		<unit load="true" path="units/pd2_mod_ttr/characters/ene_zeal_gensec_heavy_1/ene_zeal_gensec_heavy_1_husk" unload="true"/>
 	</add>
 	<add>
-		<df_nm path="units/pd2_mod_gensec/ene_acc_shield_city/cityshield"/>
-		<unit path="units/pd2_mod_gensec/ene_city_shield/ene_city_shield"/>
-		<unit path="units/pd2_mod_gensec/ene_city_shield/ene_city_shield_husk"/>
-		<unit path="units/pd2_mod_gensec/ene_city_swat_3/ene_city_swat_3"/>
-		<unit path="units/pd2_mod_gensec/ene_city_swat_2/ene_city_swat_2_husk"/>
-		<unit path="units/pd2_mod_gensec/ene_city_swat_r870/ene_city_swat_r870"/>
-		<unit path="units/pd2_mod_gensec/ene_city_swat_r870/ene_city_swat_r870_husk"/>
-		<texture path="units/pd2_mod_gensec/shared_textures/swat_shotty_df"/>
-		<unit path="units/pd2_mod_gensec/ene_city_heavy_g36/ene_city_heavy_g36"/>
-		<unit path="units/pd2_mod_gensec/ene_city_heavy_g36/ene_city_heavy_g36_husk"/>
-		<unit path="units/pd2_mod_gensec/ene_city_heavy_r870/ene_city_heavy_r870"/>
-		<unit path="units/pd2_mod_gensec/ene_city_heavy_r870/ene_city_heavy_r870_husk"/>
-		<texture path="units/pd2_mod_gensec/shared_textures/ene_shotty_heavy_df"/>
-		<unit path="units/pd2_mod_gensec/ene_city_swat_1/ene_city_swat_1_husk"/>
-		<df_nm path="units/pd2_dlc_drm/characters/ene_bulldozer_minigun_classic/mask"/>
-		<object path="units/pd2_dlc_drm/characters/ene_bulldozer_minigun_classic/ene_bulldozer_minigun_classic"/>
-		<df_nm path="units/pd2_mod_gensec/shared_textures/gensec_atlas"/>
-		<texture path="units/pd2_mod_gensec/ene_acc_shield_city/cityshield_df"/>
-		<texture path="units/pd2_mod_gensec/ene_acc_shield_city/cityshield_nm"/>
-		<material_config path="units/pd2_mod_gensec/ene_acc_shield_city/ene_acc_shield_city"/>
-		<model path="units/pd2_mod_gensec/ene_acc_shield_city/ene_acc_shield_city"/>
-		<object path="units/pd2_mod_gensec/ene_acc_shield_city/ene_acc_shield_city"/>
-		<unit path="units/pd2_mod_gensec/ene_acc_shield_city/ene_acc_shield_city"/>
-		<material_config path="units/pd2_mod_gensec/ene_city_heavy_g36/ene_city_heavy_g36"/>
-		<model path="units/pd2_mod_gensec/ene_city_heavy_g36/ene_city_heavy_g36"/>
-		<object path="units/pd2_mod_gensec/ene_city_heavy_g36/ene_city_heavy_g36"/>
-		<unit path="units/pd2_mod_gensec/ene_city_heavy_g36/ene_city_heavy_g36"/>
-		<material_config path="units/pd2_mod_gensec/ene_city_heavy_r870/ene_city_heavy_r870"/>
-		<material_config path="units/pd2_mod_gensec/ene_city_heavy_r870/ene_city_heavy_r870_contour"/>
-		<model path="units/pd2_mod_gensec/ene_city_heavy_r870/ene_city_heavy_r870"/>
-		<object path="units/pd2_mod_gensec/ene_city_heavy_r870/ene_city_heavy_r870"/>
-		<unit path="units/pd2_mod_gensec/ene_city_heavy_r870/ene_city_heavy_r870"/>
-		<unit path="units/pd2_mod_gensec/ene_city_shield/ene_city_shield"/>
-		<unit path="units/pd2_mod_gensec/ene_city_shield/ene_city_shield_husk"/>
-		<material_config path="units/pd2_mod_gensec/ene_city_swat_1/ene_city_swat_1"/>
-		<material_config path="units/pd2_mod_gensec/ene_city_swat_1/ene_city_swat_1_contour"/>
-		<model path="units/pd2_mod_gensec/ene_city_swat_1/ene_city_swat_1"/>
-		<material_config path="units/pd2_mod_gensec/ene_city_swat_2/ene_city_swat_2_contour"/>
-		<material_config path="units/pd2_mod_gensec/ene_city_swat_2/ene_city_swat_2"/>
-		<model path="units/pd2_mod_gensec/ene_city_swat_2/ene_city_swat_2"/>
-		<material_config path="units/pd2_mod_gensec/ene_city_swat_3/ene_city_swat_3"/>
-		<material_config path="units/pd2_mod_gensec/ene_city_swat_3/ene_city_swat_3_contour"/>
-		<model path="units/pd2_mod_gensec/ene_city_swat_3/ene_city_swat_3"/>
-		<unit path="units/pd2_mod_gensec/ene_city_swat_3/ene_city_swat_3"/>
-		<object path="units/pd2_mod_gensec/ene_city_swat_3/ene_city_swat_3"/>
-		<unit path="units/pd2_mod_gensec/ene_city_swat_r870/ene_city_swat_r870"/>
-		<unit path="units/pd2_mod_gensec/ene_city_swat_r870/ene_city_swat_r870_husk"/>
-		<texture path="units/pd2_mod_gensec/shared_textures/bulldozer_city_df"/>
-		<texture path="units/pd2_mod_gensec/shared_textures/ene_city_heavy_df"/>
-		<texture path="units/pd2_mod_gensec/shared_textures/ene_city_heavy_nm"/>
-		<texture path="units/pd2_mod_gensec/shared_textures/ene_shotty_heavy_df"/>
-		<texture path="units/pd2_mod_gensec/shared_textures/gensec_atlas_df"/>
-		<texture path="units/pd2_mod_gensec/shared_textures/gensec_atlas_nm"/>
-		<texture path="units/pd2_mod_gensec/shared_textures/swat_city_df"/>
-		<texture path="units/pd2_mod_gensec/shared_textures/swat_shotty_df"/>
-		<cooked_physics path="units/pd2_mod_gensec/ene_acc_shield_city/ene_acc_shield_city"/>
-		<unit_mat path="units/pd2_mod_gensec/ene_acc_shield_city/ene_acc_shield_city"/>
-	</add>
-	<add>
 		<model path="units/pd2_mod_ton/bnk_int_wall_4m_c/bnk_int_wall_4m_c"/>
 		<object path="units/pd2_mod_ton/bnk_int_wall_4m_c/bnk_int_wall_4m_c"/>
 		<unit path="units/pd2_mod_ton/bnk_int_wall_4m_c/bnk_int_wall_4m_c"/>
